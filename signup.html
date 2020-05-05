@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div class="signup-page2">
+        <form class="signup-box1">
+            <h1 class="judul-txt">Form Pendaftaran</h1>
+            <div>
+                <h1 class="nik" style="font-size: 16px">NIK</h1>
+                <input type="number" class="input-nik" required>
+            </div>
+            <div class="m-type">
+                <h2 class="member-type" style="font-size: 16px">Jenis member</h2>
+                <input type="radio" class="input-member" name ="member" value="1" required>Civilian<br/>
+                <input type="radio" class="input-member2" name="member" value="2" required>Guild member<br/>
+                <h3 class="join-txt"style="font-size: 16px">Masa bergabung</h3>
+                <select class="select-join">
+                    <option value="1">1 bulan</option>
+                    <option value="2">3 bulan</option>
+                    <option value="3">6 bulan</option>
+                    <option value="4">1 tahun</option>
+                </select>
+            </div>
+            <div>
+                <h4 style="font-size: 16px" class="prof-txt">Profesi</h4>
+                <input type="text" class="input-prof" required>
+            </div>
+            <div>
+                <h5 class="skill-txt"style="font-size: 16px">Skill</h5>
+                <textarea rows = "5" cols = "30" class="skill-area"></textarea required>
+            </div>
+            <div>
+                <h6 style="font-size: 16px" class="alamat-txt">Alamat</h6>
+                <input type="text" class="input-alamat" required>
+            </div>
+            <div>
+                <h7 style="font-size: 16px" class="tgl-txt">Tanggal Lahir</h7>
+                <input type="date" class="input-tgl" required>
+            </div>
+            <div>
+                <h8 style="font-size: 16px" class="nama-txt">Nama Lengkap</h8>
+                <input type="text" class="input-nama" required>
+            </div>
+            <div>
+                <h9 style="font-size: 16px" class="uname-txt">Kode nama (Username)</h9>
+                <input type="text" class="input-uname" required>
+            </div>
+            <button type="submit" class="submit-btn">Daftar</button>
+        </form>
+        <div class="signup-box2">
+            <img src="logo1.png" alt="Logo" width="150" height="150" class="logo-sgn">
+            <button class="google-btn"><img src="google.png" width="25" height="25" class="google-icon"/>Sign up via Google</button>
+            <button class="fb-btn"><img src="fb.png" width="25" height="25" class="fb-icon"/>Sign up via Facebook</button>
+            <button class="twt-btn"><img src="twt.png" width="25" height="25" class="twt-icon"/>Sign up via Twitter</button>
+            <button class="gh-btn"><img src="github.png" width="25" height="25" class="github-icon"/>Sign up via Github</button>
+        </div>
+    </div>
+</body>
+</html>

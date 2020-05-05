@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo-section{
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+.myimg{
+    background-color: #f2f2f2;
+    display: inline-block;
+    vertical-align: middle;
+    height: 80px;
+    width: 80px;
+    justify-content: center;
+}
+
+.mytext{
+    background-color: #f2f2f2;
+    font-family: 'Girassol', cursive;
+    font-size: 40px;
+    display: inline;
+    vertical-align: middle;
+    justify-content: center;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    background-color:#dcdcda ;
+    width: auto;
+    height: 35px;
+} 
+
+.menu{
+    list-style: none;
+}
+
+.menu li{
+    display: inline-block;
+    font-family: "Times New Roman", Times, serif;
+    position: relative;
+    top: 7px ;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: black;
+}
+
+.mypgh {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    margin-top: 70px;
+    font-size: 30pt;
+    text-align: center;
+    padding-top: 70px;
+    display: inline-block;
+    justify-content: center;
+    background-color: #47834b;
+    width: 550px;
+    height: 250px;
+}
+
+.button-list{
+    display: flex;
+    justify-content: center;
+}
+
+.mainbotton{
+    list-style: none;
+    display: flex;
+    text-align: center;
+    background-color: #47834b;
+    width: 550px;
+    height: 80px;
+    position: relative;
+}
+
+.mainbotton li{
+    display: inline-block;
+    position: relative;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    font-size: 20px;
+    bottom: 30px;
+    padding-left: 75px;
+    padding-right: 30px;
+}
+
+.mainbotton li a {
+    text-decoration: none;
+    color: black;
+}
+
+.log-button{
+    display: flex;
+    background-color: #a4a875;
+    padding: 10px 30px;
+}
+
+.reg-button{
+    display: flex;
+    background-color: #a4a875;
+    padding: 10px 30px;
+}
+
+.main-section{
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    background-image: url(icon1.png);
+    background-size: 300px 500px;
+    background-color: #72c29b;
+    width: auto;
+    height: 500px;
+}
+
+/******************************** benefit section *************************************************/
+.benefit-section{
+    display: flex;
+    background-color: #c4c4c4;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    height: 600px;
+    padding-top: 100px;
+}
+
+.benefit1{
+    display: inline-block;
+}
+
+.mytext2{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 36px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;   
+}
+
+.mypgh2{
+    font-size: 20px;
+}
+
+.benefit2{
+    display: inline-block;
+}
+
+.mytext3{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 36px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+}
+
+.mypgh3{
+    font-size: 20px;
+}
+
+.benefit3{
+    display: inline-block;
+}
+
+.mytext4{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 36px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+}
+
+.mypgh4{
+    font-size: 20px;
+}
+
+/****************************** More Info ********************************************/
+.more-section{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    height: 600px;
+    padding-top: 100px;
+    background-color: #e6e6e6;
+}
+
+.info1{
+    padding-top: 15px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.mytext2_1{
+    padding-top: 50px;
+    font-size: 36px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 100px;
+}
+
+.mypgh2_1{
+    font-size: 20px;
+    padding-right: 100px;
+}
+
+.myicon1{
+    margin-right: 40%;
+}
+
+.info2{
+    display: inline-block;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    height: 400px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.mytext3_1{
+    font-size: 36px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.mypgh3_1{
+    font-size: 20px;
+}
+
+.myicon2{
+}
+
+.info3{
+    display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-right: 10px;
+}
+
+.mytext4_1{
+    font-size: 36px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 80px;
+}
+
+.mypgh4_1{
+    font-size: 20px;
+    padding-left: 80px;
+}
+
+.myicon3{
+    margin-left: 40%;
+}
+
+.art-button{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+    font-weight: normal;
+    display: flex;
+    color: black;
+    justify-content: center;
+    background-color: #a4a875;
+    padding-top: 5px;
+    height: 30px;
+    width: 100px;
+    margin-top: 15px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.rkg-button{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+    font-weight: normal;
+    display: flex;
+    color: black;
+    justify-content: center;
+    background-color: #a4a875;
+    padding-top: 5px;
+    height: 30px;
+    width: 100px;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.rvw-button{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+    font-weight: normal;
+    display: flex;
+    color: black;
+    justify-content: center;
+    background-color: #a4a875;
+    padding-top: 5px;
+    height: 30px;
+    width: 100px;
+    margin-top: 15px;
+    margin-left: 140px;
+    margin-right: 50px;
+}
+
+/**************************************** footer ************************************************/
+.footer{
+    display: flex;
+    background-color: #47834b;
+    height: 400px;
+    text-align: left;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+.alamat{
+    display: inline-block;
+    margin-left: 10px;
+    padding-right: 190px;
+}
+
+.aboutus{
+    display: inline-block;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.description{
+    font-size: 18px;
+    display: inline-block;
+    padding-left: 190px;
+    margin-right: 10px;
+    padding-top: 50px;
+}
+
+.about-us{
+    list-style: none;
+}
+
+.about-title{
+    padding-bottom: 10px;
+}
+
+.about-us li{
+    font-size: 18px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}

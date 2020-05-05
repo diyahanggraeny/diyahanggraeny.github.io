@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.login-page{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(#72C29B,#47834B);
+    background-size: cover;
+    position: absolute;
+}
+
+.login-box{
+    width: 380px;
+    height: 480px;
+    background-color: #f2f2f2;
+    position: relative;
+    margin-left: 35%;
+    margin-right: 35% ;
+    margin-top: 5%;
+    padding-top: 35px;
+}
+
+.logo-log{
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+.text-log{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.input-group{
+    position: absolute;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 20px;
+}
+
+.input-field{
+    height: 40px;
+    width: 280px;
+    margin-bottom: 20px;
+    border-color:#72C29B ;
+    border-width: 0.5px;
+    background-color: #f2f2f2;
+    padding-left: 15px;
+}
+
+.input-field1{
+    height: 40px;
+    width: 280px;
+    border-color:#72C29B ;
+    background-color: #f2f2f2;
+    border-width: 0.5px;
+    padding-left: 15px;
+}
+
+.check-box{
+    margin-top: 25px;
+    margin-right: 5px;
+}
+
+span{
+    position: absolute;
+    font-size: 12px;
+    padding-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.submit-btn{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 40px;
+    height: 30px;
+    width: 100px;
+    margin-left: 180px;
+    cursor: pointer;
+    background-color: #a4a875;
+    border: 0;
+    
+}

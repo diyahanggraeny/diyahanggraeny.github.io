@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.signup-page2{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(#72C29B,#47834B);
+    background-size: cover;
+    position: absolute;
+}
+
+.signup-box1{
+    position: absolute;
+    display: inline-block;
+    width:500px;
+    height: 480px;
+    background-color: #f2f2f2;
+    margin-left: 610px;
+    margin-right: 235px;
+    margin-top: 5%;
+    padding-top: 12px;
+    padding-left: 20px;
+    padding-bottom: 12px;
+    margin-bottom: 5%;
+}
+
+.judul-txt{
+    padding-right: 150px;
+    font-family: 'Oswald', sans-serif;
+    color: #47834b;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.nik{
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.input-nik{
+    display: inline-block;
+    margin-left: 142px;
+    height: 25px;
+    width: 200px;
+    border-color:#72C29B ;
+    border-width: 0.5px;
+}
+
+.member-type{
+    padding-top: 10px;
+    padding-bottom: 5px
+}
+
+.input-member{
+    margin-right: 5px;
+    margin-bottom: 2px;
+    vertical-align: middle;
+}
+
+.input-member2{
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align: middle;
+    margin-bottom: 2px;
+}
+
+.join-txt{
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.select-join{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.prof-txt{
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.input-prof{
+    display: inline-block;
+    margin-left: 122px;
+    height: 25px;
+    width: 200px;
+    border-color:#72C29B ;
+    border-width: 0.5px;
+}
+
+.skill-txt{
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.skill-area{
+    display: inline-block;
+    margin-left: 138px;
+    border-color:#72C29B ;
+    border-width: 0.5px;
+}
+
+.alamat-txt{
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.input-alamat{
+    display: inline-block;
+    margin-left: 118px;
+    height: 25px;
+    width: 200px;
+    border-color:#72C29B ;
+    border-width: 0.5px;
+}
+
+.tgl-txt{
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.input-tgl{
+    display: inline-block;
+    margin-left: 72px;
+    height: 25px;
+    width: 200px;
+    border-color:#72C29B ;
+    border-width: 0.5px;
+    padding-left: 5px;
+}
+
+.nama-txt{
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.input-nama{
+    display: inline-block;
+    margin-left: 65px;
+    height: 25px;
+    width: 200px;
+    border-color:#72C29B ;
+    border-width: 0.5px;
+}
+
+.uname-txt{
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.input-uname{
+    display: inline-block;
+    margin-left: 6px;
+    height: 25px;
+    width: 200px;
+    border-color:#72C29B ;
+    border-width: 0.5px;
+}
+
+.signup-box2{
+    position: absolute;
+    display: inline-block;
+    width: 380px;
+    height: 480px;
+    background-color: #f2f2f2;
+    margin-top: 5%;
+    padding-top: 35px;
+    margin-left: 235px;
+}
+
+.logo-sgn{
+    margin-left: 120px;
+    margin-right: 70px;
+}
+
+.google-btn{
+    padding-top: 10px;
+    padding-right: 70px;
+    display: flex;
+    height: 40px;
+    width: 280px;
+    margin-left: 50px;
+    margin-right: 50px;
+    cursor: pointer;
+    background-color: #f7b529;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border-width: 0;
+}
+
+.google-icon{
+    bottom: 5px;
+    position: relative;
+    margin-right: 20px;
+    left: 10px;
+    background-color: #f7b529;
+}
+
+.fb-btn{
+    padding-top: 10px;
+    display: flex;
+    margin-top: 10px;
+    height: 40px;
+    width: 280px;
+    margin-left: 50px;
+    margin-right: 50px;
+    cursor: pointer;
+    background-color:#29487D;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border-width: 0;
+}
+
+.twt-btn{
+    padding-top: 10px;
+    display: flex;
+    margin-top: 10px;
+    height: 40px;
+    width: 280px;
+    margin-left: 50px;
+    margin-right: 50px;
+    cursor: pointer;
+    background-color: #00acee;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border-width: 0;
+}
+
+.gh-btn{
+    padding-top: 10px;
+    display: flex;
+    margin-top: 10px;
+    height: 40px;
+    width: 280px;
+    margin-left: 50px;
+    margin-right: 50px;
+    cursor: pointer;
+    background-color: white;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border-width: 0;
+}
+
+.fb-icon{
+    bottom: 5px;
+    position: relative;
+    margin-right: 20px;
+    left: 10px;
+}
+
+.twt-icon{
+    bottom: 5px;
+    position: relative;
+    margin-right: 20px;
+    left: 10px;
+}
+
+.github-icon{
+    bottom: 5px;
+    position: relative;
+    margin-right: 20px;
+    left: 10px;
+}
+
+.submit-btn{
+    display: flex;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;
+    height: 30px;
+    width: 70px;
+    margin-left: 380px;
+    bottom:17px;
+    cursor: pointer;
+    background-color: #a4a875;
+}
