@@ -114,7 +114,7 @@ nav{
     position: relative;
     justify-content: center;
     text-align: center;
-    background-image: url(img/icon1.png);
+    background-image: url("img/icon1.png");
     background-size: 300px 500px;
     background-color: #72c29b;
     width: auto;
