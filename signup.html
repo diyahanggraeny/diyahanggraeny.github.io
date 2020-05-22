@@ -4,60 +4,143 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/signup.css">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <script src="js/signup.js"></script>
+    <meta name="google-signin-client_id" content="871103374477-neusktjvs99gc7otreg1d5rv41t7rt43.apps.googleusercontent.com">
 </head>
 <body>
+    <nav>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li class="drop1"><a href="#">About Us</a>
+                    <ul class="drop1_list">
+                        <li><a href="#">Tujuan</a></li>
+                        <li><a href="#">Pengelola</a></li>
+                        <li><a href="#">Perusahaan kami</a></li>
+                        <li><a href="#">Syarat Layanan</a></li>
+                        <li><a href="#">Kebijakan Privasi</a></li>
+                        <li><a href="#">Kontak</a></li>
+                    </ul>
+            </li>
+            <li class="drop2"><a href="#">Projects</a>
+                <ul class="drop2_list">
+                    <li><a href="#">Cara Kerja</a></li>
+                    <li><a href="#">Kriteria Projects</a></li>
+                    <li><a href="#">Kriteria Rewards</a></li>
+                </ul>
+            </li>
+            <li class="drop3"><a>Members</a>
+                <ul class="drop3_list">
+                    <li><a href="#">Cara Bergabung</a></li>
+                    <li><a href="#">Keuntungan Members</a></li>
+                    <li><a href="#">Ranking</a></li> 
+                </ul>
+            </li>
+            <li>Blog</li>
+            <li><a href="reviews.html">My Reviews</a></li>
+        </ul>
+    </nav>
     <div class="signup-page2">
         <form class="signup-box1">
             <h1 class="judul-txt">Form Pendaftaran</h1>
             <div>
-                <h1 class="nik" style="font-size: 16px">NIK</h1>
-                <input type="number" class="input-nik" required>
+                <h1 class="nik" style="font-size: 14px">NIK</h1>
+                <input type="number" class="input-nik">
+            </div>
+            <div>
+                <h1 class="ktp" style="font-size: 14px">KTP</h1>
+                <input type="file" class="input-ktp" required>
             </div>
             <div class="m-type">
-                <h2 class="member-type" style="font-size: 16px">Jenis member</h2>
+                <h2 class="member-type" style="font-size: 14px">Jenis member</h2>
                 <input type="radio" class="input-member" name ="member" value="1" required>Civilian<br/>
                 <input type="radio" class="input-member2" name="member" value="2" required>Guild member<br/>
-                <h3 class="join-txt"style="font-size: 16px">Masa bergabung</h3>
+                <h3 class="join-txt"style="font-size: 14px">Masa bergabung</h3>
                 <select class="select-join">
-                    <option value="1">1 bulan</option>
-                    <option value="2">3 bulan</option>
-                    <option value="3">6 bulan</option>
-                    <option value="4">1 tahun</option>
+                    <option value="1">Gratis (Civilian)</option>
+                    <option value="2">1 bulan</option>
+                    <option value="3">3 bulan</option>
+                    <option value="4">6 bulan</option>
+                    <option value="5">1 tahun</option>
                 </select>
             </div>
             <div>
-                <h4 style="font-size: 16px" class="prof-txt">Profesi</h4>
+                <h4 style="font-size: 14px" class="prof-txt">Profesi</h4>
                 <input type="text" class="input-prof" required>
             </div>
             <div>
-                <h5 class="skill-txt"style="font-size: 16px">Skill</h5>
-                <textarea rows = "5" cols = "30" class="skill-area"></textarea required>
+                <h5 class="skill-txt"style="font-size: 14px">Skill</h5>
+                <textarea rows = "5" cols = "30" class="skill-area"></textarea>
             </div>
             <div>
-                <h6 style="font-size: 16px" class="alamat-txt">Alamat</h6>
+                <h6 style="font-size: 14px" class="alamat-txt">Alamat</h6>
                 <input type="text" class="input-alamat" required>
             </div>
             <div>
-                <h7 style="font-size: 16px" class="tgl-txt">Tanggal Lahir</h7>
+                <h7 style="font-size: 14px" class="tgl-txt">Tanggal Lahir</h7>
                 <input type="date" class="input-tgl" required>
             </div>
             <div>
-                <h8 style="font-size: 16px" class="nama-txt">Nama Lengkap</h8>
-                <input type="text" class="input-nama" required>
+                <h7 style="font-size: 14px" class="num1-txt">Nomor Telephone</h7>
+                <input type="tel" class="input-num1" placeholder="+62-21-7344451" pattern="+[0-9]{1-4}-[0-9]{2-3}-[0-9]{3-10}"required>
             </div>
             <div>
-                <h9 style="font-size: 16px" class="uname-txt">Kode nama (Username)</h9>
+                <h7 style="font-size: 14px" class="num2-txt">Nomor Handphone</h7>
+                <input type="tel" class="input-num2" placeholder="+62-812-84704381" pattern="+[0-9]{1-4}-[0-9]{2-3}-[0-9]{3-10}"required>
+            </div>
+            <div>
+                <h8 style="font-size: 14px" class="nama-txt">Nama Lengkap</h8>
+                <input type="text" class="input-nama">
+            </div>
+            <div>
+                <h9 style="font-size: 14px" class="uname-txt">Kode nama (Username)</h9>
                 <input type="text" class="input-uname" required>
             </div>
-            <button type="submit" class="submit-btn">Daftar</button>
+            <div>
+                <h10 style="font-size: 14px" class="pass-txt">Password</h10>
+                <input type="password" class="input-pass" required>
+            </div>
+            <div>
+                <h11 style="font-size: 14px" class="cpass-txt">Confirm Password</h11>
+                <input type="password" class="input-cpass" required>
+            </div>
+            <div>
+                <h12 style="font-size: 14px" class="uname-txt">Kode nama (Username)</h9>
+                <input type="text" class="input-uname" required>
+            </div>
+            <button type="submit" class="submit-btn">Submit</button>
         </form>
         <div class="signup-box2">
             <img src="img/logo1.png" alt="Logo" width="150" height="150" class="logo-sgn">
-            <button class="google-btn"><img src="img/google.png" width="25" height="25" class="google-icon"/>Sign up via Google</button>
+            <button class="google-btn"><img src="img/google.png" width="25" height="25" class="google-icon" onclick="onSignIn(googleUser)/>Sign up via Google</button>
             <button class="fb-btn"><img src="img/fb.png" width="25" height="25" class="fb-icon"/>Sign up via Facebook</button>
             <button class="twt-btn"><img src="img/twt.png" width="25" height="25" class="twt-icon"/>Sign up via Twitter</button>
             <button class="gh-btn"><img src="img/github.png" width="25" height="25" class="github-icon"/>Sign up via Github</button>
+        </div>
+    <div class="footer">
+        <div class="alamat">
+            <img src="img/logo1.png" alt="Logo" width="130" height="130" class="myimg2">
+            <p style="font-size: 16px;">PT.Maju Bersama<br>Ruko Griya Asri No.10<br>Jakarta Barat,10120<br>Telp.(021)730 8488</p>
+        </div>
+        <div class="aboutus">
+            <h1 class="about-title" style="font-size: 20px;">About Us</h1>
+            <ul class="about-us">
+                <li><a href="#">Perusahaan kami</a></li>
+                <li><a href="#">Syarat Layanan</a></li>
+                <li><a href="#">Kebijakan Privasi</a></li>
+                <li><a href="#">Kontak</a></li>
+            </ul>
+        </div>
+        <div class="description">
+            <p>Homeflex adalah website
+                <br>untuk mencari jasa
+                <br>freelancer. Kami dapat
+                <br>membantu Anda
+                <br>menemukan jasa dengan
+                <br>cepat dan aman</p>
         </div>
     </div>
 </body>
