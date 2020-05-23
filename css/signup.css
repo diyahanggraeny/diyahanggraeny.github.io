@@ -556,6 +556,7 @@ nav{
     text-shadow: 0.1px 0.1px black;
     height: 40px;
     width: 150px;
+    margin-top: 10px;
     margin-left: 300px;
     cursor: pointer;
     border-width: 0px;
