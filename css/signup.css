@@ -431,8 +431,39 @@ nav{
     height: 670px;
     background-color: #f2f2f2;
     margin-top: 50px;
-    padding-top: 35px;
+    padding-top: 50px;
     margin-left: 235px;
+}
+
+.caut-page{
+    position: relative;
+    text-align: left;
+    padding-left: 15px;
+    margin-left: 40px;
+    padding-top: 4px;
+    background-color: #eee6e6;
+    height: 60px;
+    width: 290px;
+    margin-top:0px;
+}
+
+.caut-img{
+    display: inline-block;
+    position: absolute;
+    margin-top: 3px;
+}
+
+.caut-txt{
+    display: inline-block;
+    font-size: 16px;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 1px;
+}
+
+.caut-pgh{
+    display: block;
+    font-size: 14px;
 }
 
 .logo-sgn{
@@ -443,6 +474,7 @@ nav{
 .google-btn{
     padding-top: 10px;
     padding-right: 70px;
+    margin-top: 40px;
     display: flex;
     height: 40px;
     width: 280px;
