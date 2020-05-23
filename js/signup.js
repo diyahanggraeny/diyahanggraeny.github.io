@@ -13,6 +13,7 @@ function onSignIn(googleUser) {
         'height': 40,
         'longtitle': true,
         'theme': 'dark',
+        'border-radius' : 12,
         'onsuccess': onSuccess,
         'onfailure': onFailure
       });
