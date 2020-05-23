@@ -85,11 +85,11 @@
             </div>
             <div>
                 <h7 style="font-size: 14px" class="num1-txt">Nomor Telephone</h7>
-                <input type="tel" class="input-num1" placeholder="+62-21-7344451" pattern="+[0-9]{1-4}-[0-9]{2-3}-[0-9]{3-10}"required>
+                <input type="tel" class="input-num1" placeholder="+62-21-7344451" pattern="+[0-9]{1-4}-[0-9]{2-3}-[0-9]{3-10}" id="mynum" required>
             </div>
             <div>
                 <h7 style="font-size: 14px" class="num2-txt">Nomor Handphone</h7>
-                <input type="tel" class="input-num2" placeholder="+62-812-84704381" pattern="+[0-9]{1-4}-[0-9]{2-3}-[0-9]{3-10}"required>
+                <input type="tel" class="input-num2" placeholder="+62-812-84704381" pattern="+[0-9]{1-4}-[0-9]{2-3}-[0-9]{3-10}" id="mynum2" required>
             </div>
             <div>
                 <h8 style="font-size: 14px" class="nama-txt" >Nama Lengkap</h8>
@@ -101,13 +101,13 @@
             </div>
             <div>
                 <h10 style="font-size: 14px" class="pass-txt">Password</h10>
-                <input type="password" class="input-pass" required>
+                <input type="password" class="input-pass" required id="mypass">
             </div>
             <div>
                 <h11 style="font-size: 14px" class="cpass-txt">Confirm Password</h11>
-                <input type="password" class="input-cpass" required>
+                <input type="password" class="input-cpass" required id="mycpass">
             </div>
-            <button type="submit" class="submit-btn">Submit</button>
+            <button type="submit" class="submit-btn" onclick="checkpass(); checknum1() ; checknum2()">Submit</button>
         </form>
         <div class="signup-box2">
             <img src="img/logo1.png" alt="Logo" width="150" height="150" class="logo-sgn">
@@ -116,7 +116,7 @@
                 <h1 class="caut-txt">Caution!</h1>
                 <p class="caut-pgh">Registrasi harus menggunakan salah satu akun <br>platform di bawah ini</p>
             </div>
-            <div class="g-signin2" data-onsuccess="onSignIn" data-width="280" data-height="40" data-longtitle="true"></div>
+            <div class="g-signin2" data-onsuccess="onSignIn" data-width="300" data-height="200" data-longtitle="true"></div>
             <script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
             <button class="fb-btn"><img src="img/fb.png" width="25" height="25" class="fb-icon"/>Sign up with Facebook</button>
             <button class="twt-btn"><img src="img/twt.png" width="25" height="25" class="twt-icon"/>Sign up with Twitter</button>
