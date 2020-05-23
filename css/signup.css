@@ -472,6 +472,10 @@ nav{
 }
 
 .g-signin2{
+    margin-left: 50px;
+}
+
+.google-btn{
     padding-top: 10px;
     padding-right: 70px;
     margin-top: 40px;
