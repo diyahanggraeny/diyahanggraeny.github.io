@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 nav{
+    position: sticky;
+    z-index: 1;
+    top: 0px;
     display: flex;
     justify-content: center;
     background-color:#dcdcda ;
@@ -153,7 +156,7 @@ nav{
     position: absolute;
     display: inline-block;
     width:500px;
-    height: 670px;
+    height: 680px;
     background-color: #f2f2f2;
     margin-left: 600px;
     margin-right: 105px;
@@ -161,12 +164,13 @@ nav{
     padding-top: 12px;
     padding-left: 20px;
     padding-bottom: 50px;
+    margin-bottom: 50px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 .judul-txt{
     padding-right: 150px;
-    font-family: 'Crimson Text', serif;
+    font-family: 'Oswald', sans-serif;
     text-shadow: 0.1px 0.1px black;
     color: black;
     font-size: 25px;
@@ -438,11 +442,13 @@ nav{
     position: absolute;
     display: inline-block;
     width: 380px;
-    height: 670px;
+    height: 680px;
     background-color: #f2f2f2;
     margin-top: 50px;
     padding-top: 50px;
+    margin-right: 600px;
     margin-left: 235px;
+    margin-bottom: 50px;
 }
 
 .caut-page{
@@ -485,6 +491,7 @@ nav{
     margin-top: 40px;
     margin-left: 50px;
     margin-bottom: 10px;
+    
 }
 
 .fb-btn{
@@ -498,7 +505,7 @@ nav{
     cursor: pointer;
     background-color:#29487D;
     margin-bottom: 10px;
-    font-size: 14px;
+    font-size: 15px;
     border-width: 0;
     box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
 }
@@ -609,7 +616,7 @@ nav{
     text-align: left;
     justify-content: center;
     padding-top: 20px;
-    margin-top: 60%;
+    margin-top: 800px;
     margin-right: 0px;
     margin-left: 0px;
 }
