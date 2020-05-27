@@ -4,8 +4,7 @@
     box-sizing: border-box;
 }
 
-/*************************navbar**********************************************/
-
+/*******************************************navbar*********************************************/
 nav{
     position: sticky;
     top: 0px;
@@ -151,109 +150,208 @@ nav{
   display: block;
 } 
 
-/********************main***************************************/
-.login-page{
-    display: flex;
-    width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/foto2.jpg");
-    color: black;
+/**********************************main***********************************************/
+.main-page{    
+    display: block;
+    background-color: #f2f2f2;
     background-size: cover;
-    position: relative;
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 
-.login-box{
-    width: 380px;
-    height: 520px;
-    background-color: #f2f2f2;
-    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2);
+.main-txt{
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    font-size: 30px;
+    text-shadow: 1px 1px black;
     position: relative;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.pengelola1{
+    display: inline-block;
+    background-color:  #f8f8f8;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+    height: 200px;
+    width: 150px;
+    margin-left: 20px;
+    margin-right: 20px; 
+    margin-bottom: 30px;
+}
+
+.myimg1{
+    margin-top: 30px;
+    display: block;
     margin-left: auto;
-    margin-right: auto ;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.name1{
+}
+
+.pengelola2{
+    display: inline-block;
+    background-color:  #f8f8f8;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-left: 20px;
+    margin-right: 20px; 
+    height: 200px;
+    width: 150px;
+    margin-bottom: 30px;
+}
+
+.myimg2{
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.name2{
+}
+
+.pengelola3{
+    display: inline-block;
+    background-color:  #f8f8f8;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-right: 20px;
+    height: 200px;
+    width: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+} 
+
+.myimg3{
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.name3{
+}
+
+.pengelola4{
+    display: inline-block;
+    background-color:  #f8f8f8;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    height: 200px;
+    width: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+.myimg4{
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.name4{
+}
+
+/*****************************************main2***************************************/
+.main-page2{    
+    display: block;
+    background-color: #e6e6e6;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+
+.pengelola5{
+    display: inline-block;
+    background-color:  #f8f8f8;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     margin-top: 30px;
     margin-bottom: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 200px;
+    width: 150px;
 }
 
-.logo-log{
-    position: relative;
-    top: 50px;
-}
-
-.text-log{
-    font-family: 'Oswald', sans-serif;
-    font-size: 25px;
-    text-align: center;
-    margin-left: 50px;
-    margin-right: 50px;
-}
-
-.input-group{
-    position: absolute;
+.myimg5{
+    margin-top: 30px;
     display: block;
-    padding-top: 20px;
-    padding-left: 40px;
-    padding-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
 }
 
-.input-field{
-    height: 40px;
-    width: 280px;
-    margin-bottom: 20px;
-    border-color:#72C29B ;
-    border-width: 0.5px;
-    background-color: #f2f2f2;
-    padding-left: 15px;
-    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2);
+.name5{
 }
 
-.input-field1{
-    height: 40px;
-    width: 280px;
-    border-color:#72C29B ;
-    background-color: #f2f2f2;
-    border-width: 0.5px;
-    padding-left: 15px;
-    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2);
+.pengelola6{
+    display: inline-block;
+    background-color:  #f8f8f8;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 200px;
+    width: 150px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
-
-label{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
+.myimg6{
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
 }
 
-.submit-btn{
-    text-align: center;
-    justify-content: center;
-    display: flex;
-    position: relative;
-    margin-top: 50px;
-    padding-top: 5px;
-    height: 30px;
-    width: 100px;
-    cursor: pointer;
-    border: 0;
-    background-color: #a4a875;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+.name6{
 }
 
-.button-main{
-    left: 230px;
-    margin-right: 10px;
+.pengelola7{
+    display: inline-block;
+    background-color:  #f8f8f8;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    height: 200px;
+    width: 150px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
-.submit-btn:hover{
-    background-color:  #a8ac7e;
+.myimg7{
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
 }
 
-/*******************************footer****************************/
+.name7{
+}
+
+/*********************************footer********************************/
 .footer{
     display: block;
     background-color: #47834b;
     background-size: cover;
     text-align: left;
     position: relative;
+    bottom: 30px;
+    padding-bottom: 20px;
+    left: 60px;
+    padding-right: 10px;
 }
 
 .alamat{
@@ -272,8 +370,7 @@ label{
     display: inline-block;
     position: relative;
     justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
+    padding-left: 50px;
 }
 
 .description{
@@ -281,8 +378,6 @@ label{
     position: relative;
     justify-content: left;
     top: 50px;
-    margin-left: auto;
-    margin-right: auto;
     margin-bottom: 100px;
 }
 

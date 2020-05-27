@@ -4,8 +4,7 @@
     box-sizing: border-box;
 }
 
-/*************************navbar**********************************************/
-
+/*******************************************navbar*********************************************/
 nav{
     position: sticky;
     top: 0px;
@@ -151,109 +150,130 @@ nav{
   display: block;
 } 
 
-/********************main***************************************/
-.login-page{
-    display: flex;
-    width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/foto2.jpg");
-    color: black;
-    background-size: cover;
-    position: relative;
-}
-
-.login-box{
-    width: 380px;
-    height: 520px;
-    background-color: #f2f2f2;
-    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2);
-    position: relative;
-    margin-left: auto;
-    margin-right: auto ;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.logo-log{
-    position: relative;
-    top: 50px;
-}
-
-.text-log{
-    font-family: 'Oswald', sans-serif;
-    font-size: 25px;
-    text-align: center;
-    margin-left: 50px;
-    margin-right: 50px;
-}
-
-.input-group{
-    position: absolute;
+/*********************************main**********************************************/
+.main-page{
     display: block;
+    background-color: #f2f2f2;
+    background-size: cover;
     padding-top: 20px;
-    padding-left: 40px;
-    padding-right: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
-.input-field{
-    height: 40px;
-    width: 280px;
-    margin-bottom: 20px;
-    border-color:#72C29B ;
-    border-width: 0.5px;
-    background-color: #f2f2f2;
-    padding-left: 15px;
-    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2);
-}
-
-.input-field1{
-    height: 40px;
-    width: 280px;
-    border-color:#72C29B ;
-    background-color: #f2f2f2;
-    border-width: 0.5px;
-    padding-left: 15px;
-    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2);
-}
-
-
-label{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-}
-
-.submit-btn{
-    text-align: center;
-    justify-content: center;
-    display: flex;
+.judul-txt{
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    font-size: 30px;
+    text-shadow: 1px 1px black;
     position: relative;
-    margin-top: 50px;
-    padding-top: 5px;
-    height: 30px;
-    width: 100px;
-    cursor: pointer;
-    border: 0;
-    background-color: #a4a875;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+    text-align: left;
+    padding-top: 10px;
 }
 
-.button-main{
-    left: 230px;
-    margin-right: 10px;
+.main-txt{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
 }
 
-.submit-btn:hover{
-    background-color:  #a8ac7e;
+.motto{
+    padding-top: 10px;
 }
 
-/*******************************footer****************************/
+.icon0{
+    display: inline-block;
+    position: relative;
+    padding-right: 10px;
+    padding-top: 15px;
+}
+
+.motto-page{
+    display: inline-block;
+}
+
+.mymotto2{
+    font-family:'Oswald', sans-serif;
+    font-size: 18px;
+}
+
+.mymotto3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.icon1{
+    display: inline-block;
+    position: relative;
+    padding-right: 10px;
+    padding-top: 15px;
+}
+
+.vision{
+    padding-top: 10px;
+}
+
+.vision-page{
+    display: inline-block;
+    padding-top: 10px;
+}
+
+.myvision{
+    font-family:'Oswald', sans-serif;
+    font-size: 18px;
+}
+
+.myvision2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.mission{
+    padding-top: 10px;
+}
+
+.mission-page{
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+.mymission{
+    display: inline-block;
+    font-family:'Oswald', sans-serif;
+    font-size: 18px;
+}
+
+.mymission2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.icon2{
+    display: inline-block;
+    position: relative;
+    padding-right: 10px;
+    padding-top: 15px;
+}
+
+.myimg{
+    float: right;
+    z-index: 1;
+    margin-top: 30px;
+    margin-right: 50px;
+    box-shadow: 0px 6px 10px 0px rgba(0,0,0,0.2) ;
+}
+
+/*************************footer***********************************************/
+
 .footer{
     display: block;
     background-color: #47834b;
     background-size: cover;
     text-align: left;
     position: relative;
+    bottom: 30px;
+    padding-bottom: 20px;
+    left: 60px;
+    padding-right: 10px;
 }
 
 .alamat{
@@ -272,8 +292,7 @@ label{
     display: inline-block;
     position: relative;
     justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
+    padding-left: 50px;
 }
 
 .description{
@@ -281,8 +300,6 @@ label{
     position: relative;
     justify-content: left;
     top: 50px;
-    margin-left: auto;
-    margin-right: auto;
     margin-bottom: 100px;
 }
 

@@ -4,8 +4,7 @@
     box-sizing: border-box;
 }
 
-/*************************navbar**********************************************/
-
+/*******************************************navbar*********************************************/
 nav{
     position: sticky;
     top: 0px;
@@ -151,109 +150,155 @@ nav{
   display: block;
 } 
 
-/********************main***************************************/
-.login-page{
-    display: flex;
-    width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/foto2.jpg");
-    color: black;
-    background-size: cover;
-    position: relative;
-}
-
-.login-box{
-    width: 380px;
-    height: 520px;
-    background-color: #f2f2f2;
-    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2);
-    position: relative;
-    margin-left: auto;
-    margin-right: auto ;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.logo-log{
-    position: relative;
-    top: 50px;
-}
-
-.text-log{
-    font-family: 'Oswald', sans-serif;
-    font-size: 25px;
-    text-align: center;
-    margin-left: 50px;
-    margin-right: 50px;
-}
-
-.input-group{
-    position: absolute;
+/***********************************main*******************************/
+.main-page{
     display: block;
-    padding-top: 20px;
-    padding-left: 40px;
-    padding-right: 50px;
+    background-color: whitesmoke;
+    background-size: cover;
+    padding-top: 30px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 30px;
 }
 
-.input-field{
-    height: 40px;
-    width: 280px;
-    margin-bottom: 20px;
-    border-color:#72C29B ;
-    border-width: 0.5px;
-    background-color: #f2f2f2;
-    padding-left: 15px;
-    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2);
+.admin-profile{
+    float: left;
+    vertical-align: middle;
+    background-color: white;
+    height: 250px;
+    width: 170px;
+    margin-top: 30px;
+    border-radius: 15px;
+    top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
-.input-field1{
-    height: 40px;
-    width: 280px;
-    border-color:#72C29B ;
-    background-color: #f2f2f2;
-    border-width: 0.5px;
-    padding-left: 15px;
-    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2);
+.image-admin{
+    margin-top: 30px;
 }
 
-
-label{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
+.list-user{
+    margin-top: 20px;
+    margin-left: 80px;
 }
 
-.submit-btn{
-    text-align: center;
-    justify-content: center;
-    display: flex;
+.user-txt{
+    font-family: 'Oswald', sans-serif;
+    color: #47834b;
+    font-size: 30px;
+    text-shadow: 1px 1px black;
     position: relative;
-    margin-top: 50px;
-    padding-top: 5px;
-    height: 30px;
-    width: 100px;
-    cursor: pointer;
-    border: 0;
-    background-color: #a4a875;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 5px;
 }
 
-.button-main{
-    left: 230px;
-    margin-right: 10px;
+.user_list li a {
+    color: black;
 }
 
-.submit-btn:hover{
-    background-color:  #a8ac7e;
+.list-member{
+    margin-top: 20px;
+    margin-left: 80px;
 }
 
-/*******************************footer****************************/
+.member_list li a {
+    color: black;
+}
+
+.member-txt{
+    font-family: 'Oswald', sans-serif;
+    color: #47834b;
+    font-size: 30px;
+    text-shadow: 1px 1px black;
+    position: relative;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.job-txt1{
+    font-family: 'Oswald', sans-serif;
+    color: #47834b;
+    font-size: 30px;
+    text-shadow: 1px 1px black;
+    position: relative;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.job-txt2{
+    font-family: 'Oswald', sans-serif;
+    color: #47834b;
+    font-size: 30px;
+    text-shadow: 1px 1px black;
+    position: relative;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 5px;    
+}
+
+.job-txt3{
+    font-family: 'Oswald', sans-serif;
+    color: #47834b;
+    font-size: 30px;
+    text-shadow: 1px 1px black;
+    position: relative;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 5px;   
+}
+
+.job-box{
+    vertical-align: middle;
+    background-size: cover;
+    border: 1px solid black;
+    margin-top: 20px;
+    top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 100px;
+    
+}
+
+.job-box a {
+    color: black;
+}
+
+.jobbox-txt{
+    color: black;
+}
+
+/*****************************************main2******************************/
+.main-page2{
+    display: block;
+    background-color: whitesmoke;
+    background-size: cover;
+    padding-top: 30px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 30px; 
+    margin-bottom: 150px;
+}
+
+
+/*********************************footer********************************/
 .footer{
     display: block;
     background-color: #47834b;
     background-size: cover;
     text-align: left;
     position: relative;
+    bottom: 30px;
+    padding-bottom: 20px;
+    left: 60px;
+    padding-right: 10px;
 }
 
 .alamat{
@@ -272,8 +317,7 @@ label{
     display: inline-block;
     position: relative;
     justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
+    padding-left: 50px;
 }
 
 .description{
@@ -281,8 +325,6 @@ label{
     position: relative;
     justify-content: left;
     top: 50px;
-    margin-left: auto;
-    margin-right: auto;
     margin-bottom: 100px;
 }
 
