@@ -7,98 +7,145 @@
     <link href="https://fonts.googleapis.com/css2?family=Girassol&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/carakerja.css">
+    <link rel="stylesheet" href="css/materialize.css">
 </head>
 <body>
-    <nav>
-        <ul class="menu">
+    <div class="row">
+        <nav class="col s12 m12">
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="menu left hide-on-med-and-down">
+                <li><a href="index.html" >Home</a></li>
+                <li class="drop1"><a href="#">About Us</a>
+                    <ul class="drop1_list">
+                        <li><a href="tujuan.html">Tujuan</a></li>
+                        <li><a href="pengelola.html">Pengelola</a></li>
+                        <li><a href="Perusahaan.html">Profil Perusahaan</a></li>
+                        <li><a href="#">Syarat Layanan</a></li>
+                        <li><a href="#">Kebijakan Privasi</a></li>
+                        <li><a href="#">Kontak</a></li>
+                    </ul>
+                </li>
+                <li class="drop2"><a href="#">Projects</a>
+                    <ul class="drop2_list">
+                        <li><a href="carakerja.html">Cara Kerja</a></li>
+                        <li><a href="#">Kriteria Projects</a></li>
+                        <li><a href="#">Kriteria Rewards</a></li>
+                    </ul>
+                </li>
+                <li class="drop3"><a>Members</a>
+                    <ul class="drop3_list">
+                        <li><a href="carajoin.html">Cara Bergabung</a></li>
+                        <li><a href="keuntungan.html">Keuntungan Members</a></li>
+                        <li><a href="#">Ranking</a></li> 
+                    </ul>
+                </li>
+                <li ><a href="#">Blog</a></li>
+                <li ><a href="reviews.html">My Reviews</a></li>
+            </ul>
+        </nav>
+
+        <ul class="sidenav" id="mobile-demo">
             <li><a href="index.html">Home</a></li>
             <li class="drop1"><a href="#">About Us</a>
                     <ul class="drop1_list">
                         <li><a href="tujuan.html">Tujuan</a></li>
                         <li><a href="pengelola.html">Pengelola</a></li>
-                        <li><a href="perusahaan.html">Profil Perusahaan</a></li>
+                        <li><a href="Perusahaan.html">Profil Perusahaan</a></li>
                         <li><a href="#">Syarat Layanan</a></li>
                         <li><a href="#">Kebijakan Privasi</a></li>
                         <li><a href="#">Kontak</a></li>
                     </ul>
-            </li>
-            <li class="drop2"><a href="#">Projects</a>
-                <ul class="drop2_list">
-                    <li><a href="carakerja.html">Cara Kerja</a></li>
-                    <li><a href="#">Kriteria Projects</a></li>
-                    <li><a href="#">Kriteria Rewards</a></li>
-                </ul>
-            </li>
+                </li>
+                <li class="drop2"><a href="#">Projects</a>
+                    <ul class="drop2_list">
+                        <li><a href="carakerja.html">Cara Kerja</a></li>
+                        <li><a href="#">Kriteria Projects</a></li>
+                        <li><a href="#">Kriteria Rewards</a></li>
+                    </ul>
+                </li>
             <li class="drop3"><a>Members</a>
-                <ul class="drop3_list">
-                    <li><a href="carajoin.html">Cara Bergabung</a></li>
-                    <li><a href="#">Keuntungan Members</a></li>
-                    <li><a href="#">Ranking</a></li> 
-                </ul>
-            </li>
-            <li>Blog</li>
-            <li><a href="reviews.html">My Reviews</a></li>
+                    <ul class="drop3_list">
+                        <li><a href="carajoin.html">Cara Bergabung</a></li>
+                        <li><a href="keuntungan.html">Keuntungan Members</a></li>
+                        <li><a href="#">Ranking</a></li> 
+                    </ul>
+                </li>
+            <li ><a href="#">Blog</a></li>
+            <li ><a href="reviews.html">My Reviews</a></li>
         </ul>
-    </nav>
-    <div class="main-page">
-        <div class="main-page2">
-            <h1 class="main-txt">CARA KERJA</h1>
-            <p class="main-txt2">Semua user yang sudah registrasi terbagi menjadi tiga tipe:<br>
-            1. Manager, adalah user yang memberi pekerjaan.<br>
-            2. Member (Adventurer), adalah user yang menerima pekerjaan (freelancer).<br>
-            3. Civilian.</p>
-            <div class="main-txt3">
-                <h1>Manager</h1>
-                <h3>1. Daftar</h3>
-                <h3>2. Post Project</h3>
-                <p>Isi semua informasi dengan jelas yaitu : <br>
-                    - judul<br>
-                    - pekerjaan <br>
-                    - waktu pengerjaan <br>
-                    - rewards 
-                </p>
-                <h3>3. Pilih pekerja/freelancer sesuai kebutuhan</h3>
-                <h3>4. Transfer</h3>
-                <p>Manager transfer ke rekening Homeflex.<br>
-                    Sebagai garansi: <br>
-                    -  Adventurer/freelancer pasti dibayar ketika pekerjaan telah selesai. <br>
-                    -  Manager menerima hasil kerja sesuai dengan yang diinginkan, atau uang dikembalikan kepada Manager ketika freelancer tidak dapat menyelesaikan pekerjaannya.</p>
-                <h3>5. Terima hasil</h3>
+
+        <div class="main-page col s12 m12">
+            <div class="main-page2 col s10 offset-s1 m10 offset-m1">
+                <h1 class="main-txt">CARA KERJA</h1>
+                <p class="main-txt2">Semua user yang sudah registrasi terbagi menjadi tiga tipe:<br>
+                1. Manager, adalah user yang memberi pekerjaan.<br>
+                2. Member (Adventurer), adalah user yang menerima pekerjaan (freelancer).<br>
+                3. Civilian.</p>
+                <div class="main-txt3">
+                    <p>Manager</p>
+                    <p>1. Daftar</p>
+                    <p>2. Post Project</p>
+                    <p>Isi semua informasi dengan jelas yaitu : <br>
+                        -   judul<br>
+                        -   pekerjaan <br>
+                        -   waktu pengerjaan <br>
+                        -   rewards 
+                    </p>
+                    <p>3. Pilih pekerja/freelancer sesuai kebutuhan</p>
+                    <p>4. Transfer</p>
+                    <p>Manager transfer ke rekening Homeflex.<br>
+                        Sebagai garansi: <br>
+                        -  Adventurer/freelancer pasti dibayar ketika pekerjaan telah selesai. <br>
+                        -  Manager menerima hasil kerja sesuai dengan yang diinginkan, atau uang dikembalikan kepada Manager ketika freelancer tidak dapat menyelesaikan pekerjaannya.</p>
+                    <p>5. Terima hasil</p>
+                </div>
+                <div class="main-txt4">
+                    <p>Adventurer/Freelancer</p>
+                    <p>1. Daftar</p>
+                    <p>2. Cari Project</p>
+                    <p>3. Ajukan penawaran</p>
+                    <p>Tawarkan diri Anda dan tanyakan pekerjaan secara rinci.</p>
+                    <p>4. Kerjakan dan upload pekerjaan</p>
+                    <p>5. Terima hasil</p>
+                </div>
             </div>
-            <div class="main-txt4">
-                <h1>Adventurer/Freelancer</h1>
-                <h3>1. Daftar</h3>
-                <h3>2. Cari Project</h3>
-                <h3>3. Ajukan penawaran</h3>
-                <p>Tawarkan diri Anda dan tanyakan pekerjaan secara rinci.</p>
-                <h3>4. Kerjakan dan upload pekerjaan</h3>
-                <h3>5. Terima hasil</h3>
+        </div>
+        
+        <div class="footer col s12 m12 left-align">
+            <div class="row">
+                <div class="alamat col s12 m3 offset-m1">
+                    <img src="img/logo1.png" alt="Logo" width="130" height="130" class="logo-end">
+                    <p style="font-size: 16px;">PT.Maju Bersama<br>Ruko Griya Asri No.10<br>Jakarta Barat,10120<br>Telp.(021)730 8488</p>
+                </div>
+                <div class="aboutus col s12 m5 push-m1">
+                    <h1 class="about-title" style="font-size: 18px;">About Us</h1>
+                    <ul class="about-us" style="font-size: 16px;">
+                        <li><a href="perusahaan.html">Perusahaan kami</a></li>
+                        <li><a href="#">Syarat Layanan</a></li>
+                        <li><a href="#">Kebijakan Privasi</a></li>
+                        <li><a href="#">Kontak</a></li>
+                    </ul>
+                </div>
+                <div class="description col s12 m3">
+                    <p style="font-size: 16px;">Homeflex adalah website
+                        <br>untuk mencari jasa
+                        <br>freelancer. Kami dapat
+                        <br>membantu Anda
+                        <br>menemukan jasa dengan
+                        <br>cepat dan aman</p>
+                </div>
             </div>
         </div>
     </div>
-    <div class="footer">
-        <div class="alamat">
-            <img src="img/logo1.png" alt="Logo" width="130" height="130">
-            <p style="font-size: 16px;">PT.Maju Bersama<br>Ruko Griya Asri No.10<br>Jakarta Barat,10120<br>Telp.(021)730 8488</p>
-        </div>
-        <div class="aboutus">
-            <h1 class="about-title" style="font-size: 20px;">About Us</h1>
-            <ul class="about-us">
-                <li><a href="#">Perusahaan kami</a></li>
-                <li><a href="#">Syarat Layanan</a></li>
-                <li><a href="#">Kebijakan Privasi</a></li>
-                <li><a href="#">Kontak</a></li>
-            </ul>
-        </div>
-        <div class="description">
-            <p>Homeflex adalah website
-                <br>untuk mencari jasa
-                <br>freelancer. Kami dapat
-                <br>membantu Anda
-                <br>menemukan jasa dengan
-                <br>cepat dan aman</p>
-        </div>
-    </div>
+</div>    
+
+<script type="text/javascript" src="js/materialize.js"></script>
+<script>
+    const sideNav = document.querySelectorAll('.sidenav');
+    M.Sidenav.init(sideNav);
+</script>
 </body>
 </html>

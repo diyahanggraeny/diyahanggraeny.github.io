@@ -3,149 +3,218 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign Up</title>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
+    <title>Homeflex</title>
+    <link href="https://fonts.googleapis.com/css2?family=Girassol&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/signup.css">
-    <script src="https://apis.google.com/js/platform.js" async defer></script>
-    <meta name="google-signin-client_id" content="871103374477-ar4eoe70pbau1d8t882ftiqr6ogul53n.apps.googleusercontent.com">
-    <script src="js/signup.js"></script>
+    <link rel="stylesheet" href="css/materialize.css">
+    <script type="text/javascript" src="./js/signup.js"></script>
 </head>
 <body>
-    <nav>
-        <ul class="menu">
-            <li><a href="index.html">Home</a></li>
-            <li class="drop1"><a href="#">About Us</a>
+    <div class="row">
+        <nav class="col s12 m12">
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="menu left hide-on-med-and-down">
+                <li><a href="index.html" >Home</a></li>
+                <li class="drop1"><a href="#">About Us</a>
                     <ul class="drop1_list">
-                        <li><a href="#">Tujuan</a></li>
-                        <li><a href="#">Pengelola</a></li>
+                        <li><a href="tujuan.html">Tujuan</a></li>
+                        <li><a href="pengelola.html">Pengelola</a></li>
                         <li><a href="Perusahaan.html">Profil Perusahaan</a></li>
                         <li><a href="#">Syarat Layanan</a></li>
                         <li><a href="#">Kebijakan Privasi</a></li>
                         <li><a href="#">Kontak</a></li>
                     </ul>
-            </li>
-            <li class="drop2"><a href="#">Projects</a>
-                <ul class="drop2_list">
-                    <li><a href="#">Cara Kerja</a></li>
-                    <li><a href="#">Kriteria Projects</a></li>
-                    <li><a href="#">Kriteria Rewards</a></li>
-                </ul>
-            </li>
-            <li class="drop3"><a>Members</a>
-                <ul class="drop3_list">
-                    <li><a href="#">Cara Bergabung</a></li>
-                    <li><a href="#">Keuntungan Members</a></li>
-                    <li><a href="#">Ranking</a></li> 
-                </ul>
-            </li>
-            <li>Blog</li>
-            <li><a href="reviews.html">My Reviews</a></li>
-        </ul>
-    </nav>
-    <div class="signup-page2">
-        <form class="signup-box1">
-            <h1 class="judul-txt">Form Pendaftaran</h1>
-            <div>
-                <h1 class="nik" style="font-size: 14px">NIK</h1>
-                <input type="number" class="input-nik" id="mynik">
-            </div>
-            <div>
-                <h1 class="ktp" style="font-size: 14px">KTP</h1>
-                <input type="file" class="input-ktp" required>
-            </div>
-            <div class="m-type">
-                <h2 class="member-type" style="font-size: 14px">Jenis member</h2>
-                <input type="radio" class="input-member" name ="member" value="1" required>Civilian<br/>
-                <input type="radio" class="input-member2" name="member" value="2" required>Guild member<br/>
-                <h3 class="join-txt"style="font-size: 14px">Masa bergabung</h3>
-                <select class="select-join">
-                    <option value="1">Gratis (Civilian)</option>
-                    <option value="2">1 bulan</option>
-                    <option value="3">3 bulan</option>
-                    <option value="4">6 bulan</option>
-                    <option value="5">1 tahun</option>
-                </select>
-            </div>
-            <div>
-                <h4 style="font-size: 14px" class="prof-txt">Profesi</h4>
-                <input type="text" class="input-prof" required>
-            </div>
-            <div>
-                <h5 class="skill-txt"style="font-size: 14px">Skill</h5>
-                <textarea rows = "5" cols = "30" class="skill-area"></textarea>
-            </div>
-            <div>
-                <h6 style="font-size: 14px" class="alamat-txt">Alamat</h6>
-                <input type="text" class="input-alamat" required>
-            </div>
-            <div>
-                <h7 style="font-size: 14px" class="tgl-txt">Tanggal Lahir</h7>
-                <input type="date" class="input-tgl" required>
-            </div>
-            <div>
-                <h7 style="font-size: 14px" class="num1-txt">Nomor Telephone</h7>
-                <input type="tel" class="input-num1" placeholder="+62-21-7344451" pattern="+[0-9]{1-4}-[0-9]{2-3}-[0-9]{3-10}" id="mynum" required>
-            </div>
-            <div>
-                <h7 style="font-size: 14px" class="num2-txt">Nomor Handphone</h7>
-                <input type="tel" class="input-num2" placeholder="+62-812-84704381" pattern="+[0-9]{1-4}-[0-9]{2-3}-[0-9]{3-10}" id="mynum2" required>
-            </div>
-            <div>
-                <h8 style="font-size: 14px" class="nama-txt" >Nama Lengkap</h8>
-                <input type="text" class="input-nama" id="myname">
-            </div>
-            <div>
-                <h9 style="font-size: 14px" class="uname-txt">Kode nama (Username)</h9>
-                <input type="text" class="input-uname" required>
-            </div>
-            <div>
-                <h10 style="font-size: 14px" class="pass-txt">Password</h10>
-                <input type="password" class="input-pass" required id="mypass">
-            </div>
-            <div>
-                <h11 style="font-size: 14px" class="cpass-txt">Confirm Password</h11>
-                <input type="password" class="input-cpass" required id="mycpass">
-            </div>
-            <button type="submit" class="submit-btn" onclick="checkpass(); checknum1() ; checknum2()">Submit</button>
-        </form>
-        <div class="signup-box2">
-            <img src="img/logo1.png" alt="Logo" width="150" height="150" class="logo-sgn">
-            <div class="caut-page">
-                <img src="img/caution.png" alt="Caution" width="15" height="15" class="caut-img">
-                <h1 class="caut-txt">Caution!</h1>
-                <p class="caut-pgh">Registrasi harus menggunakan salah satu akun <br>platform di bawah ini</p>
-            </div>
-            <div class="g-signin2" data-onsuccess="onSignIn" data-width="280" data-height="40" data-longtitle="true" data-onsuccess="onSignIn"></div>
-            <script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
-            <button class="fb-btn"><img src="img/fb.png" width="25" height="25" class="fb-icon"/>Sign up with Facebook</button>
-            <button class="twt-btn"><img src="img/twt.png" width="25" height="25" class="twt-icon"/>Sign up with Twitter</button>
-            <button class="gh-btn"><img src="img/github.png" width="25" height="25" class="github-icon"/>Sign up with Github</button>
-            <button class="ld-btn"><img src="img/linkedin.png" width="25" height="25" class="linkedin-icon"/>Sign up with LinkedIn</button>
-        </div>
-    <div class="footer">
-        <div class="alamat">
-            <img src="img/logo1.png" alt="Logo" width="130" height="130" class="myimg2">
-            <p style="font-size: 16px;">PT.Maju Bersama<br>Ruko Griya Asri No.10<br>Jakarta Barat,10120<br>Telp.(021)730 8488</p>
-        </div>
-        <div class="aboutus">
-            <h1 class="about-title" style="font-size: 20px;">About Us</h1>
-            <ul class="about-us">
-                <li><a href="#">Perusahaan kami</a></li>
-                <li><a href="#">Syarat Layanan</a></li>
-                <li><a href="#">Kebijakan Privasi</a></li>
-                <li><a href="#">Kontak</a></li>
+                </li>
+                <li class="drop2"><a href="#">Projects</a>
+                    <ul class="drop2_list">
+                        <li><a href="carakerja.html">Cara Kerja</a></li>
+                        <li><a href="#">Kriteria Projects</a></li>
+                        <li><a href="#">Kriteria Rewards</a></li>
+                    </ul>
+                </li>
+                <li class="drop3"><a>Members</a>
+                    <ul class="drop3_list">
+                        <li><a href="carajoin.html">Cara Bergabung</a></li>
+                        <li><a href="keuntungan.html">Keuntungan Members</a></li>
+                        <li><a href="#">Ranking</a></li> 
+                    </ul>
+                </li>
+                <li ><a href="#">Blog</a></li>
+                <li ><a href="reviews.html">My Reviews</a></li>
             </ul>
-        </div>
-        <div class="description">
-            <p>Homeflex adalah website
-                <br>untuk mencari jasa
-                <br>freelancer. Kami dapat
-                <br>membantu Anda
-                <br>menemukan jasa dengan
-                <br>cepat dan aman</p>
+        </nav>
+
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="index.html">Home</a></li>
+            <li class="drop1"><a href="#">About Us</a>
+                    <ul class="drop1_list">
+                        <li><a href="tujuan.html">Tujuan</a></li>
+                        <li><a href="pengelola.html">Pengelola</a></li>
+                        <li><a href="Perusahaan.html">Profil Perusahaan</a></li>
+                        <li><a href="#">Syarat Layanan</a></li>
+                        <li><a href="#">Kebijakan Privasi</a></li>
+                        <li><a href="#">Kontak</a></li>
+                    </ul>
+                </li>
+                <li class="drop2"><a href="#">Projects</a>
+                    <ul class="drop2_list">
+                        <li><a href="carakerja.html">Cara Kerja</a></li>
+                        <li><a href="#">Kriteria Projects</a></li>
+                        <li><a href="#">Kriteria Rewards</a></li>
+                    </ul>
+                </li>
+            <li class="drop3"><a>Members</a>
+                    <ul class="drop3_list">
+                        <li><a href="carajoin.html">Cara Bergabung</a></li>
+                        <li><a href="keuntungan.html">Keuntungan Members</a></li>
+                        <li><a href="#">Ranking</a></li> 
+                    </ul>
+                </li>
+            <li ><a href="#">Blog</a></li>
+            <li ><a href="reviews.html">My Reviews</a></li>
+        </ul>
+
+        <div class="signup-page2 col s12 m12">
+            <div class="row">
+                <form class="signup-box1 col s12 m4 offset-m6 contain">
+                    <div class="row">
+                        <h1 class="judul-txt">Form Pendaftaran</h1>
+                        <div>
+                            <h1 class="nik" style="font-size: 14px">NIK</h1>
+                            <input type="number" class="input-nik" id="mynik">
+                        </div>
+                        <div>
+                            <h1 class="ktp" style="font-size: 14px">KTP</h1>
+                            <input type="file" class="input-ktp" required>
+                        </div>
+                        <div class="m-type">
+                            <h2 class="member-type" style="font-size: 14px">Jenis member</h2>
+                            <p>
+                                <label>
+                                <input type="radio" class="input-member" name ="member" value="1" required><span>Civilian</span>
+                                </label>
+                            </p>
+                            <p><label><input type="radio" class="input-member2" name="member" value="2" required><span>Member (Adventurer)</span></label></p>
+                            <p><label><input type="radio" class="input-member2" name="member" value="3" required><span>Manager</span></label></p>
+                            <h3 class="join-txt"style="font-size: 14px">Masa bergabung</h3>
+                            <select class="select-join">
+                                <option value="1">Gratis (Civilian)</option>
+                                <option value="2">1 bulan</option>
+                                <option value="3">3 bulan</option>
+                                <option value="4">6 bulan</option>
+                                <option value="5">1 tahun</option>
+                            </select>
+                        </div>
+                        <div>
+                            <h4 style="font-size: 14px" class="prof-txt">Profesi</h4>
+                            <input type="text" class="input-prof" required>
+                        </div>
+                        <div>
+                            <h5 class="skill-txt"style="font-size: 14px">Skill</h5>
+                            <textarea rows = "5" cols = "30" class="skill-area"></textarea>
+                        </div>
+                        <div>
+                            <h6 style="font-size: 14px" class="alamat-txt">Alamat</h6>
+                            <input type="text" class="input-alamat" required>
+                        </div>
+                        <div>
+                            <h7 style="font-size: 14px" class="tgl-txt">Tanggal Lahir</h7>
+                            <input type="date" class="input-tgl" required>
+                        </div>
+                        <div>
+                            <h7 style="font-size: 14px" class="num1-txt">Nomor Telephone</h7>
+                            <input type="tel" class="input-num1" placeholder="+62-21-7344451" pattern="+[0-9]{1-4}-[0-9]{2-3}-[0-9]{3-10}" id="mynum" required>
+                        </div>
+                        <div>
+                            <h7 style="font-size: 14px" class="num2-txt">Nomor Handphone</h7>
+                            <input type="tel" class="input-num2" placeholder="+62-812-84704381" pattern="+[0-9]{1-4}-[0-9]{2-3}-[0-9]{3-10}" id="mynum2" required>
+                        </div>
+                        <div>
+                            <h8 style="font-size: 14px" class="nama-txt" >Nama Lengkap</h8>
+                            <input type="text" class="input-nama" id="myname">
+                        </div>
+                        <div>
+                            <h9 style="font-size: 14px" class="uname-txt">Kode nama (Username)</h9>
+                            <input type="text" class="input-uname" required>
+                        </div>
+                        <div>
+                            <h10 style="font-size: 14px" class="pass-txt">Password</h10>
+                            <input type="password" class="input-pass" required id="mypass">
+                        </div>
+                        <div>
+                            <h11 style="font-size: 14px" class="cpass-txt">Confirm Password</h11>
+                            <input type="password" class="input-cpass" required id="mycpass">
+                        </div>
+                        <p>
+                            <label>
+                            <input type="checkbox" class="checkbox" onclick="myFunction()"><span>Lihat Password</span>
+                            </label>
+                        </p>
+                        <button type="submit" class="submit-btn" onclick="checkpass(); checknum1() ; checknum2(); passStrength()">Submit</button>
+                    </div>
+                </form>
+                
+                <div class="signup-box2 col s12 m4 offset-m2">
+                    <div class="center-align"><img src="img/logo1.png" alt="Logo" width="150" height="150" class="logo-sgn"></div>
+                    <div class="caut-page">
+                        <img src="img/caution.png" alt="Caution" width="15" height="15" class="caut-img">
+                        <h1 class="caut-txt">Caution!</h1>
+                        <p class="caut-pgh">Registrasi harus menggunakan salah satu akun <br>platform di bawah ini</p>
+                    </div>
+                    <div class="g-signin2" data-onsuccess="onSignIn" data-width="280" data-height="40" data-longtitle="true" data-onsuccess="onSignIn"></div>
+                    <script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
+                    <button class="fb-btn"><img src="img/fb.png" width="25" height="25" class="fb-icon"/>Sign up with Facebook</button>
+                    <button class="twt-btn"><img src="img/twt.png" width="25" height="25" class="twt-icon"/>Sign up with Twitter</button>
+                    <button class="gh-btn"><img src="img/github.png" width="25" height="25" class="github-icon"/>Sign up with Github</button>
+                    <button class="ld-btn"><img src="img/linkedin.png" width="25" height="25" class="linkedin-icon"/>Sign up with LinkedIn</button>
+                    <p class="info">
+                        Informasi :<br>
+                        - Penulisan nomor telpon dan nomor handphone harus<br>
+                        memiliki pattern +()-()-().<br>
+                        - Password harus terdiri di atas 8 digit dan di bawah<br>
+                        16 digit.
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
+
+   <div class="footer col s12 m12 left-align">
+            <div class="row">
+                <div class="alamat col s12 m4">
+                    <img src="img/logo1.png" alt="Logo" width="130" height="130" class="logo-end">
+                    <p style="font-size: 16px;">PT.Maju Bersama<br>Ruko Griya Asri No.10<br>Jakarta Barat,10120<br>Telp.(021)730 8488</p>
+                </div>
+                <div class="aboutus col s12 m4">
+                    <h1 class="about-title" style="font-size: 18px;">About Us</h1>
+                    <ul class="about-us" style="font-size: 16px;">
+                        <li><a href="perusahaan.html">Perusahaan kami</a></li>
+                        <li><a href="#">Syarat Layanan</a></li>
+                        <li><a href="#">Kebijakan Privasi</a></li>
+                        <li><a href="#">Kontak</a></li>
+                    </ul>
+                </div>
+                <div class="description col s12 m4">
+                    <p style="font-size: 16px;">Homeflex adalah website
+                        <br>untuk mencari jasa
+                        <br>freelancer. Kami dapat
+                        <br>membantu Anda
+                        <br>menemukan jasa dengan
+                        <br>cepat dan aman</p>
+                </div>
+            </div>
+        </div>
+    </div>    
+</div>
+   
+<script type="text/javascript" src="js/materialize.js"></script>
+<script>
+    const sideNav = document.querySelectorAll('.sidenav');
+    M.Sidenav.init(sideNav);
+</script>
 </body>
 </html>

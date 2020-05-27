@@ -7,75 +7,123 @@
     <link href="https://fonts.googleapis.com/css2?family=Girassol&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/keuntungan.css">
+    <link rel="stylesheet" href="css/materialize.css">
 </head>
 <body>
-    <nav>
-        <ul class="menu">
+    <div class="row">
+        <nav class="col s12 m12">
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="menu left hide-on-med-and-down">
+                <li><a href="index.html" >Home</a></li>
+                <li class="drop1"><a href="#">About Us</a>
+                    <ul class="drop1_list">
+                        <li><a href="tujuan.html">Tujuan</a></li>
+                        <li><a href="pengelola.html">Pengelola</a></li>
+                        <li><a href="Perusahaan.html">Profil Perusahaan</a></li>
+                        <li><a href="#">Syarat Layanan</a></li>
+                        <li><a href="#">Kebijakan Privasi</a></li>
+                        <li><a href="#">Kontak</a></li>
+                    </ul>
+                </li>
+                <li class="drop2"><a href="#">Projects</a>
+                    <ul class="drop2_list">
+                        <li><a href="carakerja.html">Cara Kerja</a></li>
+                        <li><a href="#">Kriteria Projects</a></li>
+                        <li><a href="#">Kriteria Rewards</a></li>
+                    </ul>
+                </li>
+                <li class="drop3"><a>Members</a>
+                    <ul class="drop3_list">
+                        <li><a href="carajoin.html">Cara Bergabung</a></li>
+                        <li><a href="keuntungan.html">Keuntungan Members</a></li>
+                        <li><a href="#">Ranking</a></li> 
+                    </ul>
+                </li>
+                <li ><a href="#">Blog</a></li>
+                <li ><a href="reviews.html">My Reviews</a></li>
+            </ul>
+        </nav>
+
+        <ul class="sidenav" id="mobile-demo">
             <li><a href="index.html">Home</a></li>
             <li class="drop1"><a href="#">About Us</a>
                     <ul class="drop1_list">
                         <li><a href="tujuan.html">Tujuan</a></li>
                         <li><a href="pengelola.html">Pengelola</a></li>
-                        <li><a href="perusahaan.html">Profil Perusahaan</a></li>
+                        <li><a href="Perusahaan.html">Profil Perusahaan</a></li>
                         <li><a href="#">Syarat Layanan</a></li>
                         <li><a href="#">Kebijakan Privasi</a></li>
                         <li><a href="#">Kontak</a></li>
                     </ul>
-            </li>
-            <li class="drop2"><a href="#">Projects</a>
-                <ul class="drop2_list">
-                    <li><a href="carakerja.html">Cara Kerja</a></li>
-                    <li><a href="#">Kriteria Projects</a></li>
-                    <li><a href="#">Kriteria Rewards</a></li>
-                </ul>
-            </li>
+                </li>
+                <li class="drop2"><a href="#">Projects</a>
+                    <ul class="drop2_list">
+                        <li><a href="carakerja.html">Cara Kerja</a></li>
+                        <li><a href="#">Kriteria Projects</a></li>
+                        <li><a href="#">Kriteria Rewards</a></li>
+                    </ul>
+                </li>
             <li class="drop3"><a>Members</a>
-                <ul class="drop3_list">
-                    <li><a href="carajoin.html">Cara Bergabung</a></li>
-                    <li><a href="keuntungan.html">Keuntungan Members</a></li>
-                    <li><a href="#">Ranking</a></li> 
-                </ul>
-            </li>
-            <li>Blog</li>
-            <li><a href="reviews.html">My Reviews</a></li>
+                    <ul class="drop3_list">
+                        <li><a href="carajoin.html">Cara Bergabung</a></li>
+                        <li><a href="keuntungan.html">Keuntungan Members</a></li>
+                        <li><a href="#">Ranking</a></li> 
+                    </ul>
+                </li>
+            <li ><a href="#">Blog</a></li>
+            <li ><a href="reviews.html">My Reviews</a></li>
         </ul>
-    </nav>
-    <div class="main-page">
-        <div>
-            <h1 class="judul-txt">KEUNTUNGAN MEMBERS</h1>
-            <img src="img/sukses.jpeg" height="300" width="450" class="main-img">
-            <div class="main-txt">
-                <img src="https://img.icons8.com/ios/50/000000/check-all.png"/>
-                <h1 class="text1" style="font-weight: normal;">Member dapat membuat pekerjaan di Notice board</h1>
-                <h1 class="text2" style="font-weight: normal;">Member dapat mengambil pekerjaan yang dibuat <br>member lain</h1>
-                <h1 class="text3" style="font-weight: normal;">Member dapat ikut berpartisipasi dalam sistem ranking</h1>
-                <h1 class="text4" style="font-weight: normal;">Member akan mendapat info ter-up-to-date mengenai <br> pekerjaan</h1>
+
+        <div class="main-page col s12 m12">
+            <div>
+                <h1 class="judul-txt col s10 offset-s1 m10 offset-m1">KEUNTUNGAN MEMBERS</h1>
+                <img src="img/sukses.jpeg" height="300" width="450" class="main-img col s10 offset-s1 m4 offset-m1">
+                <div class="main-txt col s10 offset-s1 m6">
+                    <img src="https://img.icons8.com/ios/50/000000/check-all.png"/>
+                    <h1 class="text1" style="font-weight: normal;">Member dapat membuat pekerjaan di Notice board</h1>
+                    <h1 class="text2" style="font-weight: normal;">Member dapat mengambil pekerjaan yang dibuat member lain</h1>
+                    <h1 class="text3" style="font-weight: normal;">Member dapat ikut berpartisipasi dalam sistem ranking</h1>
+                    <h1 class="text4" style="font-weight: normal;">Member akan mendapat info ter-up-to-date mengenai pekerjaan</h1>
+                </div>
             </div>
         </div>
+        
+        <div class="footer col s12 m12 left-align">
+            <div class="row">
+                <div class="alamat col s12 m3 offset-m1">
+                    <img src="img/logo1.png" alt="Logo" width="130" height="130" class="logo-end">
+                    <p style="font-size: 16px;">PT.Maju Bersama<br>Ruko Griya Asri No.10<br>Jakarta Barat,10120<br>Telp.(021)730 8488</p>
+                </div>
+                <div class="aboutus col s12 m5 push-m1">
+                    <h1 class="about-title" style="font-size: 18px;">About Us</h1>
+                    <ul class="about-us" style="font-size: 16px;">
+                        <li><a href="perusahaan.html">Perusahaan kami</a></li>
+                        <li><a href="#">Syarat Layanan</a></li>
+                        <li><a href="#">Kebijakan Privasi</a></li>
+                        <li><a href="#">Kontak</a></li>
+                    </ul>
+                </div>
+                <div class="description col s12 m3">
+                    <p style="font-size: 16px;">Homeflex adalah website
+                        <br>untuk mencari jasa
+                        <br>freelancer. Kami dapat
+                        <br>membantu Anda
+                        <br>menemukan jasa dengan
+                        <br>cepat dan aman</p>
+                </div>
+            </div>
     </div>
-    <div class="footer">
-        <div class="alamat">
-            <img src="img/logo1.png" alt="Logo" width="130" height="130">
-            <p style="font-size: 16px;">PT.Maju Bersama<br>Ruko Griya Asri No.10<br>Jakarta Barat,10120<br>Telp.(021)730 8488</p>
-        </div>
-        <div class="aboutus">
-            <h1 class="about-title" style="font-size: 20px;">About Us</h1>
-            <ul class="about-us">
-                <li><a href="#">Perusahaan kami</a></li>
-                <li><a href="#">Syarat Layanan</a></li>
-                <li><a href="#">Kebijakan Privasi</a></li>
-                <li><a href="#">Kontak</a></li>
-            </ul>
-        </div>
-        <div class="description">
-            <p>Homeflex adalah website
-                <br>untuk mencari jasa
-                <br>freelancer. Kami dapat
-                <br>membantu Anda
-                <br>menemukan jasa dengan
-                <br>cepat dan aman</p>
-        </div>
-    </div>
+</div>
+</div>    
+</div>
+
+<script type="text/javascript" src="js/materialize.js"></script>
+<script>
+    const sideNav = document.querySelectorAll('.sidenav');
+    M.Sidenav.init(sideNav);
+</script>
 </body>
 </html>

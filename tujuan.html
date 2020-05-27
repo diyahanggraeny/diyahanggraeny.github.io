@@ -7,86 +7,138 @@
     <link href="https://fonts.googleapis.com/css2?family=Girassol&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/tujuan.css">
+    <link rel="stylesheet" href="css/materialize.css">
 </head>
 <body>
-    <nav>
-        <ul class="menu">
-            <li><a href="index.html">Home</a></li>
-            <li class="drop1"><a href="#">About Us</a>
+    <div class="row">
+        <nav class="col s12 m12">
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="menu left hide-on-med-and-down">
+                <li><a href="index.html" >Home</a></li>
+                <li class="drop1"><a href="#">About Us</a>
                     <ul class="drop1_list">
                         <li><a href="tujuan.html">Tujuan</a></li>
-                        <li><a href="#">Pengelola</a></li>
-                        <li><a href="perusahaan.html">Profil Perusahaan</a></li>
+                        <li><a href="pengelola.html">Pengelola</a></li>
+                        <li><a href="Perusahaan.html">Profil Perusahaan</a></li>
                         <li><a href="#">Syarat Layanan</a></li>
                         <li><a href="#">Kebijakan Privasi</a></li>
                         <li><a href="#">Kontak</a></li>
                     </ul>
-            </li>
-            <li class="drop2"><a href="#">Projects</a>
-                <ul class="drop2_list">
-                    <li><a href="#">Cara Kerja</a></li>
-                    <li><a href="#">Kriteria Projects</a></li>
-                    <li><a href="#">Kriteria Rewards</a></li>
-                </ul>
-            </li>
-            <li class="drop3"><a>Members</a>
-                <ul class="drop3_list">
-                    <li><a href="#">Cara Bergabung</a></li>
-                    <li><a href="#">Keuntungan Members</a></li>
-                    <li><a href="#">Ranking</a></li> 
-                </ul>
-            </li>
-            <li>Blog</li>
-            <li><a href="reviews.html">My Reviews</a></li>
-        </ul>
-    </nav>
-    <div class="main-page">
-        <h1 class="judul-txt">TUJUAN (SITE GOALS)</h1>
-        <p class="main-txt">Homeflex adalah website untuk mencari freelancer, menjadi freelancer, dan mengatur
-        atau membuat pekerjaan bagi para freelancer. Website kami selalu ingin berkembang dan 
-        menjadi yang terbaik. Oleh karena itu, berikut kami paparkan tujuan atau site goals yang 
-        ingin kami capai di masa depan.</p>
-        <div class="sect2">
-            <img src="https://img.icons8.com/flat_round/64/000000/medal2.png" height="60" width="60" class="img2"/>
-            <p>Menjadi online marketplace no.1 di Indonesia</p>
-        </div>
-        <div class="main-page2">
-            <div class="sect1">
-                <img src="https://img.icons8.com/color/48/000000/thumb-up--v1.png" height="60" width="60" class="img1"/>
-                <p class="txt1">Membangun sistem yang mudah, efisien,<br> dan tidak menyulitkan bagi pengguna.<br>
-                Hal tersebut termasuk dalam mencari <br>pekerjaan maupun membuat pekerjaan.</p>
-            </div>
-            <div class="sect3">
-                <img src="https://img.icons8.com/color/48/000000/private2--v1.png" height="60" width="60" class="img3"/>
-                <p>Membangun kepercayaan kepada pengguna <br> untuk bertransaksi di website kami.<br>
-                Hal tersebut akan dilakukan dengan <br>membangun sistem keamanan yang lebih kuat<br>
-                dan sistem transaksi yang lebih efisien.</p>
-            </div>
-        </div>
-    </div>
-    <div class="footer">
-        <div class="alamat">
-            <img src="img/logo1.png" alt="Logo" width="130" height="130" class="myimg2">
-            <p style="font-size: 16px;">PT.Maju Bersama<br>Ruko Griya Asri No.10<br>Jakarta Barat,10120<br>Telp.(021)730 8488</p>
-        </div>
-        <div class="aboutus">
-            <h1 class="about-title" style="font-size: 20px;">About Us</h1>
-            <ul class="about-us">
-                <li><a href="#">Perusahaan kami</a></li>
-                <li><a href="#">Syarat Layanan</a></li>
-                <li><a href="#">Kebijakan Privasi</a></li>
-                <li><a href="#">Kontak</a></li>
+                </li>
+                <li class="drop2"><a href="#">Projects</a>
+                    <ul class="drop2_list">
+                        <li><a href="carakerja.html">Cara Kerja</a></li>
+                        <li><a href="#">Kriteria Projects</a></li>
+                        <li><a href="#">Kriteria Rewards</a></li>
+                    </ul>
+                </li>
+                <li class="drop3"><a>Members</a>
+                    <ul class="drop3_list">
+                        <li><a href="carajoin.html">Cara Bergabung</a></li>
+                        <li><a href="keuntungan.html">Keuntungan Members</a></li>
+                        <li><a href="#">Ranking</a></li> 
+                    </ul>
+                </li>
+                <li ><a href="#">Blog</a></li>
+                <li ><a href="reviews.html">My Reviews</a></li>
             </ul>
+        </nav>
+
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="index.html">Home</a></li>
+            <li class="drop1"><a href="#">About Us</a>
+                    <ul class="drop1_list">
+                        <li><a href="tujuan.html">Tujuan</a></li>
+                        <li><a href="pengelola.html">Pengelola</a></li>
+                        <li><a href="Perusahaan.html">Profil Perusahaan</a></li>
+                        <li><a href="#">Syarat Layanan</a></li>
+                        <li><a href="#">Kebijakan Privasi</a></li>
+                        <li><a href="#">Kontak</a></li>
+                    </ul>
+                </li>
+                <li class="drop2"><a href="#">Projects</a>
+                    <ul class="drop2_list">
+                        <li><a href="carakerja.html">Cara Kerja</a></li>
+                        <li><a href="#">Kriteria Projects</a></li>
+                        <li><a href="#">Kriteria Rewards</a></li>
+                    </ul>
+                </li>
+            <li class="drop3"><a>Members</a>
+                    <ul class="drop3_list">
+                        <li><a href="carajoin.html">Cara Bergabung</a></li>
+                        <li><a href="keuntungan.html">Keuntungan Members</a></li>
+                        <li><a href="#">Ranking</a></li> 
+                    </ul>
+                </li>
+            <li ><a href="#">Blog</a></li>
+            <li ><a href="reviews.html">My Reviews</a></li>
+        </ul>
+
+        <div class="main-page col s12 m12 contain">
+            <div class="col s12 m8 offset-m2">
+                <h1 class="judul-txt">TUJUAN (SITE GOALS)</h1>
+                <p class="main-txt">Homeflex adalah website untuk mencari freelancer, menjadi freelancer, dan mengatur
+                atau membuat pekerjaan bagi para freelancer. Website kami selalu ingin berkembang dan 
+                menjadi yang terbaik. Oleh karena itu, berikut kami paparkan tujuan atau site goals yang 
+                ingin kami capai di masa depan.</p>
+            </div>
+            <div class="sect2 col s12 m4 offset-m4">
+                <img src="https://img.icons8.com/flat_round/64/000000/medal2.png" height="60" width="60" class="img2"/>
+                <p>Menjadi online marketplace no.1 di Indonesia</p>
+            </div>
+            <div class="main-page2 col s12 m12">
+                <div class="row">
+                    <div class="sect1 col s12 m3 offset-m2">
+                        <img src="https://img.icons8.com/color/48/000000/thumb-up--v1.png" height="60" width="60" class="img1"/>
+                        <p class="txt1">Membangun sistem yang mudah, efisien,<br> dan tidak menyulitkan bagi pengguna.<br>
+                        Hal tersebut termasuk dalam mencari <br>pekerjaan maupun membuat pekerjaan.</p>
+                    </div>
+                    <div class="sect3 col s12 m4">
+                        <img src="https://img.icons8.com/color/48/000000/private2--v1.png" height="60" width="60" class="img3"/>
+                        <p>Membangun kepercayaan kepada pengguna <br> untuk bertransaksi di website kami.<br>
+                        Hal tersebut akan dilakukan dengan <br>membangun sistem keamanan yang lebih kuat <br>
+                        dan sistem transaksi yang lebih efisien.</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="description">
-            <p>Homeflex adalah website
-                <br>untuk mencari jasa
-                <br>freelancer. Kami dapat
-                <br>membantu Anda
-                <br>menemukan jasa dengan
-                <br>cepat dan aman</p>
+
+        <div class="footer col s12 m12 left-align">
+            <div class="row">
+                <div class="alamat col s12 m3 offset-m1">
+                    <img src="img/logo1.png" alt="Logo" width="130" height="130" class="logo-end">
+                    <p style="font-size: 16px;">PT.Maju Bersama<br>Ruko Griya Asri No.10<br>Jakarta Barat,10120<br>Telp.(021)730 8488</p>
+                </div>
+                <div class="aboutus col s12 m5 push-m1">
+                    <h1 class="about-title" style="font-size: 18px;">About Us</h1>
+                    <ul class="about-us" style="font-size: 16px;">
+                        <li><a href="perusahaan.html">Perusahaan kami</a></li>
+                        <li><a href="#">Syarat Layanan</a></li>
+                        <li><a href="#">Kebijakan Privasi</a></li>
+                        <li><a href="#">Kontak</a></li>
+                    </ul>
+                </div>
+                <div class="description col s12 m3">
+                    <p style="font-size: 16px;">Homeflex adalah website
+                        <br>untuk mencari jasa
+                        <br>freelancer. Kami dapat
+                        <br>membantu Anda
+                        <br>menemukan jasa dengan
+                        <br>cepat dan aman</p>
+                </div>
+            </div>
         </div>
     </div>
+</div>    
+</div>
+
+<script type="text/javascript" src="js/materialize.js"></script>
+<script>
+    const sideNav = document.querySelectorAll('.sidenav');
+    M.Sidenav.init(sideNav);
+</script>
 </body>
 </html>

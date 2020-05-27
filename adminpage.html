@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="css/carajoin.css">
+    <link rel="stylesheet" href="css/adminpage.css">
     <link rel="stylesheet" href="css/materialize.css">
 </head>
 <body>
@@ -18,35 +18,9 @@
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <ul class="menu left hide-on-med-and-down">
                 <li><a href="index.html" >Home</a></li>
-                <li class="drop1"><a href="#">About Us</a>
-                    <ul class="drop1_list">
-                        <li><a href="tujuan.html">Tujuan</a></li>
-                        <li><a href="pengelola.html">Pengelola</a></li>
-                        <li><a href="Perusahaan.html">Profil Perusahaan</a></li>
-                        <li><a href="#">Syarat Layanan</a></li>
-                        <li><a href="#">Kebijakan Privasi</a></li>
-                        <li><a href="#">Kontak</a></li>
-                    </ul>
-                </li>
-                <li class="drop2"><a href="#">Projects</a>
-                    <ul class="drop2_list">
-                        <li><a href="carakerja.html">Cara Kerja</a></li>
-                        <li><a href="#">Kriteria Projects</a></li>
-                        <li><a href="#">Kriteria Rewards</a></li>
-                    </ul>
-                </li>
-                <li class="drop3"><a>Members</a>
-                    <ul class="drop3_list">
-                        <li><a href="carajoin.html">Cara Bergabung</a></li>
-                        <li><a href="keuntungan.html">Keuntungan Members</a></li>
-                        <li><a href="#">Ranking</a></li> 
-                    </ul>
-                </li>
-                <li ><a href="#">Blog</a></li>
-                <li ><a href="reviews.html">My Reviews</a></li>
             </ul>
         </nav>
-
+    
         <ul class="sidenav" id="mobile-demo">
             <li><a href="index.html">Home</a></li>
             <li class="drop1"><a href="#">About Us</a>
@@ -78,24 +52,65 @@
         </ul>
 
         <div class="main-page col s12 m12">
-            <h1 class="main-txt col s10 offset-s1 m10 offset-m1">CARA BERGABUNG</h1>
-            <div class="step1 col s10 offset-s1 m3 offset-m1">
-                <img src="img/step1.png" width="100" height="100">
-                <h1 class="step1-txt">Isi formulir dan pilih masa bergabung paket</h1>
-                <p class="step1-txt1">Lengkapi formulir data diri Anda secara lengkap, mulai dari nama,alamat,KTP,dan sebagainya</p>
+            <div class="admin-profile col s10 offset-s1 m3 offset-m1">
+                <div class="center-align"><img src="img/user.png" width="100" height="100" class="image-admin"></div>
+                <p>Selamat datang, admin101</p>
+                <p>
+                    Email : admin101@gmail.com <br>
+                    Tanggal Lahir : 13 Juni 1997 <br>
+                    Nomor handphone : +62-814-78890561
+                </p>
             </div>
-            <div class="step2 col s10 offset-s1 m4">
-                <img src="img/step2.png" width="100" height="100">
-                <h1 class="step2-txt">Transfer biaya pembelian paket masa bergabung</h1>
-                <p class="step2-txt1">Sistem kami akan otomatis memeriksa <br>dan mengkonfirmasi pembayaran Anda </p>
+
+            <div class="list-user col s10 offset-s1 m3 push-m1">
+                <p class="user-txt">List of Users</p>
+                <ul class="user_list">
+                    <li><a href="#">user100000000001</a></li>
+                    <li><a href="#">user100000000002</a></li>
+                    <li><a href="#">user100000000003</a></li>
+                    <li><a href="#">user100000000004</a></li>
+                    <li><a href="#">user100000000005</a></li>
+                    <li><a href="#">user100000000006</a></li>
+                    <li><a href="#">user100000000007</a></li>
+                    <li><a href="#">user100000000008</a></li>
+                    <li><a href="#">user100000000009</a></li>
+                    <li><a href="#">user100000000010</a></li>  
+                </ul>
             </div>
-            <div class="step3  col s10 offset-s1 m3">
-                <img src="img/step3.png" width="100" height="100">
-                <h1 class="step3-txt">Selamat Anda telah menjadi member Homeflex</h1>
-                <p class="step3-txt1">Gunakan kesempatan sebaik-baiknya.<br> Mulailah bekerja sekarang juga!</p>
+            <div class="list-member col s10 offset-s1 m4 push-m1">
+                <p class="member-txt">List of Members</p>
+                <ul class="member_list">
+                    <li><a href="#">Member100000000001</a></li>
+                    <li><a href="#">Member100000000002</a></li>
+                    <li><a href="#">Member100000000003</a></li>
+                    <li><a href="#">Member100000000004</a></li>
+                    <li><a href="#">Member100000000005</a></li>
+                    <li><a href="#">Member100000000006</a></li>
+                    <li><a href="#">Member100000000007</a></li>
+                    <li><a href="#">Member100000000008</a></li>
+                    <li><a href="#">Member100000000009</a></li>
+                    <li><a href="#">Member100000000010</a></li>  
+                </ul>
+            </div>
+            <div class="row">
+                <div class="posted-jobs col s10 offset-s1 m3 offset-m1">
+                    <p class="job-txt1">Posted Projects</p>
+                    <a href="#" class="jobbox-txt"><p class="job-box">Judul : Membuat game <br>
+                    Pekerjaan : Membuat game guild untuk smartphone. Bentuk game bebas. Dibutuhkan dalam waktu cepat.<br>
+                    Waktu pengerjaan : 3 hari<br>
+                    Rewards : 4.000.000 <br>
+                    Pengirim : <a href="#">Member100000000005</a></p></a>
+                </div>
+                <div class="taken-jobs col s12 m3 push-m1">
+                    <p class="job-txt2">Taken Projects</p>
+                </div>
+                <div class="finished-jobs col s12 m3 push-m1">
+                    <p class="job-txt3">Finished Projects</p>
+                </div>
             </div>
         </div>
-        
+    
+
         <div class="footer col s12 m12 left-align">
             <div class="row">
                 <div class="alamat col s12 m3 offset-m1">

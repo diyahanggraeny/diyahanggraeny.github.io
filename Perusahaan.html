@@ -7,92 +7,144 @@
     <link href="https://fonts.googleapis.com/css2?family=Girassol&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/perusahaan.css">
+    <link rel="stylesheet" href="css/materialize.css">
 </head>
 <body>
-    <nav>
-        <ul class="menu">
-            <li><a href="index.html">Home</a></li>
-            <li class="drop1"><a href="#">About Us</a>
+    <div class="row">
+        <nav class="col s12 m12">
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="menu left hide-on-med-and-down">
+                <li><a href="index.html" >Home</a></li>
+                <li class="drop1"><a href="#">About Us</a>
                     <ul class="drop1_list">
-                        <li><a href="#">Tujuan</a></li>
-                        <li><a href="#">Pengelola</a></li>
-                        <li><a href="perusahaan.html">Profil Perusahaan</a></li>
+                        <li><a href="tujuan.html">Tujuan</a></li>
+                        <li><a href="pengelola.html">Pengelola</a></li>
+                        <li><a href="Perusahaan.html">Profil Perusahaan</a></li>
                         <li><a href="#">Syarat Layanan</a></li>
                         <li><a href="#">Kebijakan Privasi</a></li>
                         <li><a href="#">Kontak</a></li>
                     </ul>
-            </li>
-            <li class="drop2"><a href="#">Projects</a>
-                <ul class="drop2_list">
-                    <li><a href="#">Cara Kerja</a></li>
-                    <li><a href="#">Kriteria Projects</a></li>
-                    <li><a href="#">Kriteria Rewards</a></li>
-                </ul>
-            </li>
-            <li class="drop3"><a>Members</a>
-                <ul class="drop3_list">
-                    <li><a href="#">Cara Bergabung</a></li>
-                    <li><a href="#">Keuntungan Members</a></li>
-                    <li><a href="#">Ranking</a></li> 
-                </ul>
-            </li>
-            <li>Blog</li>
-            <li><a href="reviews.html">My Reviews</a></li>
-        </ul>
-    </nav>
-    <div class="main-page">
-        <img src="img/company.jpg" width="400" height="300" class="myimg">
-        <h1 class="judul-txt">PROFIL PERUSAHAAN</h1>
-        <p class="main-txt">PT.Maju Bersama<br>
-        Ruko Griya Asri No.10<br>
-        Jakarta Barat<br>
-        Daerah Khusus Ibukota Jakarta 10120<br>
-        Jam kerja : setiap hari pukul 07.00 - 22.00 WIB</p>
-        <div class="motto">
-            <img src="img/motto.png" width="50" height="50" class="icon0">
-            <div class="motto-page">
-                <p class="mymotto2">Get You The Best One</p>
-                <p class="mymotto3"> Motto ini diharapkan dapat menambah minat dan kepercayaan pengguna</p>
-            </div>
-        </div>
-        <div class="vision">
-            <img src="img/vision.png" width="50" height="50" class="icon1">
-            <div class="vision-page">
-                <h1 class="myvision" >Visi</h1>
-                <p class="myvision2">Menjadi online marketplace no.1 terbaik di Indonesia</p>
-            </div>
-        </div>
-        <div class="mission">
-            <img src="img/mission.png" width= "50" height= "50" class="icon2">
-            <div class="mission-page">
-                <h1 class="mymission">Misi</h1>
-                <p class="mymission2">Memberikan kenyamanan bekerja, daya saing positif,efisiensi kerja dan <br> efisiensi biaya bagi pengguna</p>
-            </div>    
-        </div>
-    </div>
-    <div class="footer">
-        <div class="alamat">
-            <img src="img/logo1.png" alt="Logo" width="130" height="130" class="myimg2">
-            <p style="font-size: 16px;">PT.Maju Bersama<br>Ruko Griya Asri No.10<br>Jakarta Barat,10120<br>Telp.(021)730 8488</p>
-        </div>
-        <div class="aboutus">
-            <h1 class="about-title" style="font-size: 20px;">About Us</h1>
-            <ul class="about-us">
-                <li><a href="#">Perusahaan kami</a></li>
-                <li><a href="#">Syarat Layanan</a></li>
-                <li><a href="#">Kebijakan Privasi</a></li>
-                <li><a href="#">Kontak</a></li>
+                </li>
+                <li class="drop2"><a href="#">Projects</a>
+                    <ul class="drop2_list">
+                        <li><a href="carakerja.html">Cara Kerja</a></li>
+                        <li><a href="#">Kriteria Projects</a></li>
+                        <li><a href="#">Kriteria Rewards</a></li>
+                    </ul>
+                </li>
+                <li class="drop3"><a>Members</a>
+                    <ul class="drop3_list">
+                        <li><a href="carajoin.html">Cara Bergabung</a></li>
+                        <li><a href="keuntungan.html">Keuntungan Members</a></li>
+                        <li><a href="#">Ranking</a></li> 
+                    </ul>
+                </li>
+                <li ><a href="#">Blog</a></li>
+                <li ><a href="reviews.html">My Reviews</a></li>
             </ul>
-        </div>
-        <div class="description">
-            <p>Homeflex adalah website
-                <br>untuk mencari jasa
-                <br>freelancer. Kami dapat
-                <br>membantu Anda
-                <br>menemukan jasa dengan
-                <br>cepat dan aman</p>
+        </nav>
+
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="index.html">Home</a></li>
+            <li class="drop1"><a href="#">About Us</a>
+                    <ul class="drop1_list">
+                        <li><a href="tujuan.html">Tujuan</a></li>
+                        <li><a href="pengelola.html">Pengelola</a></li>
+                        <li><a href="Perusahaan.html">Profil Perusahaan</a></li>
+                        <li><a href="#">Syarat Layanan</a></li>
+                        <li><a href="#">Kebijakan Privasi</a></li>
+                        <li><a href="#">Kontak</a></li>
+                    </ul>
+                </li>
+                <li class="drop2"><a href="#">Projects</a>
+                    <ul class="drop2_list">
+                        <li><a href="carakerja.html">Cara Kerja</a></li>
+                        <li><a href="#">Kriteria Projects</a></li>
+                        <li><a href="#">Kriteria Rewards</a></li>
+                    </ul>
+                </li>
+            <li class="drop3"><a>Members</a>
+                    <ul class="drop3_list">
+                        <li><a href="carajoin.html">Cara Bergabung</a></li>
+                        <li><a href="keuntungan.html">Keuntungan Members</a></li>
+                        <li><a href="#">Ranking</a></li> 
+                    </ul>
+                </li>
+            <li ><a href="#">Blog</a></li>
+            <li ><a href="reviews.html">My Reviews</a></li>
+        </ul>
+
+    <div class="main-page col s12 m12">
+        <img src="img/company.jpg" width="400" height="300" class="myimg">
+        <div class="row">
+            <div class="col s12 m4 offset-m1">
+                <h1 class="judul-txt">PROFIL PERUSAHAAN</h1>
+                <p class="main-txt">PT.Maju Bersama<br>
+                Ruko Griya Asri No.10<br>
+                Jakarta Barat<br>
+                Daerah Khusus Ibukota Jakarta 10120<br>
+                Jam kerja : setiap hari pukul 07.00 - 22.00 WIB</p>
+            </div>
+            <div class="motto col s12 m6 offset-m1">
+                <img src="img/motto.png" width="50" height="50" class="icon0">
+                <div class="motto-page">
+                    <p class="mymotto2">Get You The Best One</p>
+                    <p class="mymotto3"> Motto ini diharapkan dapat menambah minat dan kepercayaan pengguna</p>
+                </div>
+            </div>
+            <div class="vision col s8 m6 offset-m1">
+                <img src="img/vision.png" width="50" height="50" class="icon1">
+                <div class="vision-page">
+                    <p class="myvision" >Visi</p>
+                    <p class="myvision2">Menjadi online marketplace no.1 terbaik di Indonesia</p>
+                </div>
+            </div>
+            <div class="mission col s12 m8 offset-m1">
+                <img src="img/mission.png" width= "50" height= "50" class="icon2">
+                <div class="mission-page">
+                    <p class="mymission">Misi</p>
+                    <p class="mymission2">Memberikan kenyamanan bekerja, daya saing positif,efisiensi kerja dan efisiensi biaya bagi pengguna</p>
+                </div>    
+            </div>
         </div>
     </div>
+
+    <div class="footer col s12 m12 left-align">
+        <div class="row">
+            <div class="alamat col s12 m3 offset-m1">
+                <img src="img/logo1.png" alt="Logo" width="130" height="130" class="logo-end">
+                <p style="font-size: 16px;">PT.Maju Bersama<br>Ruko Griya Asri No.10<br>Jakarta Barat,10120<br>Telp.(021)730 8488</p>
+            </div>
+            <div class="aboutus col s12 m5 push-m1">
+                <h1 class="about-title" style="font-size: 18px;">About Us</h1>
+                <ul class="about-us" style="font-size: 16px;">
+                    <li><a href="perusahaan.html">Perusahaan kami</a></li>
+                    <li><a href="#">Syarat Layanan</a></li>
+                    <li><a href="#">Kebijakan Privasi</a></li>
+                    <li><a href="#">Kontak</a></li>
+                </ul>
+            </div>
+            <div class="description col s12 m3">
+                <p style="font-size: 16px;">Homeflex adalah website
+                    <br>untuk mencari jasa
+                    <br>freelancer. Kami dapat
+                    <br>membantu Anda
+                    <br>menemukan jasa dengan
+                    <br>cepat dan aman</p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>    
+</div>
+
+<script type="text/javascript" src="js/materialize.js"></script>
+<script>
+    const sideNav = document.querySelectorAll('.sidenav');
+    M.Sidenav.init(sideNav);
+</script>
 </body>
 </html>
