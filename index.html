@@ -6,34 +6,57 @@
     <title>Homeflex</title>
     <link href="https://fonts.googleapis.com/css2?family=Girassol&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
+    <script src="js/index.js"></script>
 </head>
 <body>
-    <header>
-        <div class="logo-section">
-            <img src="img/logo1.png" alt="Logo" width="100" height="100" class="myimg">
-            <h1 class="mytext">Get You The Best One</h1>
-        </div>
-        <nav>
-            <ul class="menu">
-                <li><a href="index.html">Home</a></li>
-                <li>About Us</li>
-                <li>Projects</li>
-                <li>Services</li>
-                <li>Blog</li>
-                <li><a href="reviews.html">My Reviews</a></li>
-            </ul>
-        </nav>
-        <div class="main-section">
-            <p class="mypgh">Temukan freelancer terbaik<br>di seluruh Indonesia</p>
-            <div class="button-list">
-                <ul class="mainbotton">
-                    <li><a href="login.html" class="log-button">LOGIN</a></li>
-                    <li><a href="signup.html" class="reg-button">REGISTRASI</a></li>
+    <div class="logo-section">
+        <img src="img/logo1.png" alt="Logo" width="100" height="100" class="myimg">
+        <h1 class="mytext">Get You The Best One</h1>
+    </div>
+    <nav id="navbar">
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li class="drop1"><a href="#">About Us</a>
+                    <ul class="drop1_list">
+                        <li><a href="tujuan.html">Tujuan</a></li>
+                        <li><a href="pengelola.html">Pengelola</a></li>
+                        <li><a href="Perusahaan.html">Profil Perusahaan</a></li>
+                        <li><a href="#">Syarat Layanan</a></li>
+                        <li><a href="#">Kebijakan Privasi</a></li>
+                        <li><a href="#">Kontak</a></li>
+                    </ul>
+            </li>
+            <li class="drop2"><a href="#">Projects</a>
+                <ul class="drop2_list">
+                    <li><a href="#">Cara Kerja</a></li>
+                    <li><a href="#">Kriteria Projects</a></li>
+                    <li><a href="#">Kriteria Rewards</a></li>
                 </ul>
-            </div>
+            </li>
+            <li class="drop3"><a>Members</a>
+                <ul class="drop3_list">
+                    <li><a href="#">Cara Bergabung</a></li>
+                    <li><a href="#">Keuntungan Members</a></li>
+                    <li><a href="#">Ranking</a></li> 
+                </ul>
+            </li>
+            <li>Blog</li>
+            <li><a href="reviews.html">My Reviews</a></li>
+        </ul>
+    </nav>
+
+    <div class="main-section">
+        <p class="mypgh">Temukan freelancer terbaik<br>di seluruh Indonesia</p>
+        <div class="button-list">
+            <ul class="mainbotton">
+                <li><a href="login.html" class="log-button">LOGIN</a></li>
+                <li><a href="signup.html" class="reg-button">REGISTRASI</a></li>
+            </ul>
         </div>
-    </header>
+    </div>
 
     <div class="benefit-section">
         <div class="benefit1">
@@ -58,19 +81,19 @@
             <img src="img/icon2.png" alt="icon1" width="100" height="100" class="myicon1">
             <h1 class="mytext2_1">Tips & Trick</h1>
             <p class="mypgh2_1">Berbagai macam artikel<br>untuk mendukung<br>karir Anda</p>
-            <h1 class="art-button">See Articles</h1>
+            <h1 class="art-button"><a href="#">See Articles</a></h1>
         </div>
         <div class="info2">
             <img src="img/icon3.png" alt="icon2" width="100" height="100" class="myicon2">
             <h1 class="mytext3_1">Top Workers</h1>
             <p class="mypgh3_1">Daftar ranking pekerja<br>terbaik untuk disimak</p>
-            <h1 class="rkg-button">See Rankings</h1>
+            <h1 class="rkg-button"><a href="#">See Rankings</a></h1>
         </div>
         <div class="info3">
             <img src="img/icon4.png" alt="icon3" width="100" height="100" class="myicon3">
             <h1 class="mytext4_1">Testimonials</h1>
             <p class="mypgh4_1">Pendapat dari orang-<br>orang yang menggunakan<br>website kami</p>
-            <h1 class="rvw-button">See Reviews</h1>
+            <h1 class="rvw-button"><a href="#">See Reviews</a></h1>
         </div>
     </div>
 
@@ -82,10 +105,10 @@
         <div class="aboutus">
             <h1 class="about-title" style="font-size: 20px;">About Us</h1>
             <ul class="about-us">
-                <li>Perusahaan kami</li>
-                <li>Syarat Layanan</li>
-                <li>Kebijakan Privasi</li>
-                <li>Kontak</li>
+                <li><a href="#">Perusahaan kami</a></li>
+                <li><a href="#">Syarat Layanan</a></li>
+                <li><a href="#">Kebijakan Privasi</a></li>
+                <li><a href="#">Kontak</a></li>
             </ul>
         </div>
         <div class="description">
@@ -97,6 +120,5 @@
                 <br>cepat dan aman</p>
         </div>
     </div>
- 
 </body>
 </html>
