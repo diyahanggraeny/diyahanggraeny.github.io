@@ -59,3 +59,21 @@ function checknum2(){
     }
 
 }
+
+function myFunction() {
+    var pass = document.getElementById("mypass");
+    var cpass = document.getElementById("mycpass");
+
+    if (pass.type === "password" && cpass.type == "password") {pass.type = "text"; cpass.type = "text"}
+    else {pass.type = "password"; cpass.type = "password";}
+}
+
+function passStrength(){
+    var login_count = 0;
+    var max_length = 16;
+    var min_length = 8;
+    var pass = (document.getElementById("mypass").value);
+
+    if (pass.length > max_length || pass.length < min_length){
+        document.getElementById('mypass').value = '';}   
+}
